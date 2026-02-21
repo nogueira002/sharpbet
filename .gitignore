@@ -1,0 +1,19 @@
+# Manuals / docs
+*.pdf
+*.md
+!README.md
+
+# Environment variables
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
