@@ -1,71 +1,84 @@
 import requests
-from config import HEADERS_ODDS, RAPIDAPI_HOST_ODDS
+import time
+from config import HEADERS_FOOTBALL, RAPIDAPI_HOST_FOOTBALL
 
 def fetch_odds_for_fixtures(fixtures):
     """
-    Para cada fixture, vai buscar as odds do mercado 1X2.
-    Adiciona as odds ao objeto do fixture.
+    Vai buscar odds para cada fixture usando a API de futebol.
+    Endpoint: football-event-odds
     """
+    if not fixtures:
+        return []
+
     fixtures_with_odds = []
 
-    for fixture in fixtures:
+    for i, fixture in enumerate(fixtures):
         fixture_id = fixture["fixture_id"]
-        url = f"https://{RAPIDAPI_HOST_ODDS}/api/v1/markets/feed"
-
+        url = f"https://{RAPIDAPI_HOST_FOOTBALL}/football-event-odds"
         params = {
-            "placing": "PREMATCH",
-            "market_name": "1X2",
-            "bet_type": "BACK",
-            "event_ids": str(fixture_id),
-            "period": "FULL_TIME_AND_OT",
-            "page": 0,
+            "eventid": fixture_id,
+            "countrycode": "PT"
         }
 
         try:
-            response = requests.get(url, headers=HEADERS_ODDS, params=params)
+            response = requests.get(url, headers=HEADERS_FOOTBALL, params=params, timeout=10)
             response.raise_for_status()
             data = response.json()
 
-            odds = extract_best_odds(data)
+            odds = extract_odds(data)
             if odds:
                 fixture["odds"] = odds
                 fixtures_with_odds.append(fixture)
 
         except Exception as e:
-            print(f"⚠️ Sem odds para fixture {fixture_id}: {e}")
-            continue
+            # Silencioso para não encher o terminal
+            pass
 
-    print(f"📊 Odds obtidas para {len(fixtures_with_odds)} jogos")
+        # Pausa pequena para não sobrecarregar a API
+        if i % 10 == 9:
+            print(f"⏳ {i+1}/{len(fixtures)} processados...")
+            time.sleep(0.5)
+
+    print(f"✅ Odds encontradas para {len(fixtures_with_odds)} jogos")
     return fixtures_with_odds
 
 
-def extract_best_odds(data):
+def extract_odds(data):
     """
-    Extrai as melhores odds disponíveis para Casa/Empate/Fora.
-    Retorna dict com as melhores odds de cada mercado.
+    Extrai odds 1X2 da resposta da API.
+    Estrutura: response.odds.odds.matchfactMarkets[0].selections
     """
-    best_odds = {"home": 0, "draw": 0, "away": 0}
-
     try:
-        markets = data.get("markets", [])
+        markets = (
+            data.get("response", {})
+                .get("odds", {})
+                .get("odds", {})
+                .get("matchfactMarkets", [])
+        )
+
         for market in markets:
-            for selection in market.get("selections", []):
-                name = selection.get("name", "").lower()
-                price = selection.get("price", 0)
+            if "who_will_win" in market.get("fotMobMarketTypeId", {}).get("translationKey", ""):
+                selections = market.get("selections", [])
+                odds = {}
 
-                if "home" in name or "1" == name:
-                    best_odds["home"] = max(best_odds["home"], price)
-                elif "draw" in name or "x" == name:
-                    best_odds["draw"] = max(best_odds["draw"], price)
-                elif "away" in name or "2" == name:
-                    best_odds["away"] = max(best_odds["away"], price)
+                for sel in selections:
+                    name = sel.get("name", "").lower()
+                    try:
+                        val = float(sel.get("oddsDecimal", 0))
+                    except:
+                        val = 0
 
-    except Exception as e:
-        print(f"⚠️ Erro ao extrair odds: {e}")
+                    if name == "1":
+                        odds["home"] = val
+                    elif name == "x":
+                        odds["draw"] = val
+                    elif name == "2":
+                        odds["away"] = val
+
+                if odds.get("home") and odds.get("away"):
+                    return odds
+
+    except Exception:
         return None
-
-    # Só retorna se tiver odds válidas
-    if best_odds["home"] > 0 and best_odds["away"] > 0:
-        return best_odds
 
     return None

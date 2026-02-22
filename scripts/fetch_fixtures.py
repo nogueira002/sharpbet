@@ -5,34 +5,40 @@ from config import HEADERS_FOOTBALL, RAPIDAPI_HOST_FOOTBALL
 def fetch_todays_fixtures():
     """
     Vai buscar todos os jogos de hoje à API.
-    Retorna lista de fixtures com info básica.
+    Retorna APENAS jogos que ainda não começaram (upcoming).
     """
-    today = datetime.now().strftime("%Y-%m-%d")
-    url = f"https://{RAPIDAPI_HOST_FOOTBALL}/football-get-fixtures-by-date"
-
+    today = datetime.now().strftime("%Y%m%d")
+    url = f"https://{RAPIDAPI_HOST_FOOTBALL}/football-get-matches-by-date"
     params = {"date": today}
 
     try:
-        response = requests.get(url, headers=HEADERS_FOOTBALL, params=params)
+        response = requests.get(url, headers=HEADERS_FOOTBALL, params=params, timeout=15)
         response.raise_for_status()
         data = response.json()
 
+        all_matches = data.get("response", {}).get("matches", [])
+
         fixtures = []
-        for match in data.get("response", []):
+        for match in all_matches:
+            status = match.get("status", {})
+
+            # Ignora jogos já terminados, cancelados ou adiados
+            if status.get("finished") or status.get("cancelled"):
+                continue
+
             fixture = {
-                "fixture_id": match["fixture"]["id"],
-                "date": match["fixture"]["date"],
-                "league": match["league"]["name"],
-                "country": match["league"]["country"],
-                "home_team": match["teams"]["home"]["name"],
-                "home_team_id": match["teams"]["home"]["id"],
-                "away_team": match["teams"]["away"]["name"],
-                "away_team_id": match["teams"]["away"]["id"],
-                "venue": match["fixture"].get("venue", {}).get("name", "N/A"),
+                "fixture_id": match["id"],
+                "league_id": match.get("leagueId"),
+                "date": match.get("time"),
+                "home_team": match["home"]["name"],
+                "home_team_id": match["home"]["id"],
+                "away_team": match["away"]["name"],
+                "away_team_id": match["away"]["id"],
+                "status": "upcoming",
             }
             fixtures.append(fixture)
 
-        print(f"📅 {len(fixtures)} jogos encontrados para {today}")
+        print(f"📅 {len(all_matches)} jogos totais hoje → {len(fixtures)} ainda por jogar")
         return fixtures
 
     except Exception as e:
@@ -44,28 +50,32 @@ def fetch_team_recent_form(team_id, last_n=5):
     """
     Vai buscar os últimos N jogos de uma equipa.
     """
-    url = f"https://{RAPIDAPI_HOST_FOOTBALL}/football-get-team-fixtures"
+    url = f"https://{RAPIDAPI_HOST_FOOTBALL}/football-get-matches-by-team"
     params = {"teamId": team_id, "last": last_n}
 
     try:
-        response = requests.get(url, headers=HEADERS_FOOTBALL, params=params)
+        response = requests.get(url, headers=HEADERS_FOOTBALL, params=params, timeout=15)
         response.raise_for_status()
         data = response.json()
 
         form = []
-        for match in data.get("response", []):
+        matches = data.get("response", {}).get("matches", [])
+
+        for match in matches:
+            status = match.get("status", {})
+            if not status.get("finished"):
+                continue
+
             result = {
-                "date": match["fixture"]["date"],
-                "home": match["teams"]["home"]["name"],
-                "away": match["teams"]["away"]["name"],
-                "home_goals": match["goals"]["home"],
-                "away_goals": match["goals"]["away"],
-                "winner": match["teams"]["home"]["winner"],
+                "home_id": match["home"]["id"],
+                "away_id": match["away"]["id"],
+                "home_goals": match["home"].get("score", 0),
+                "away_goals": match["away"].get("score", 0),
             }
             form.append(result)
 
         return form
 
     except Exception as e:
-        print(f"❌ Erro ao recolher forma da equipa {team_id}: {e}")
+        print(f"⚠️ Sem forma para equipa {team_id}: {e}")
         return []
