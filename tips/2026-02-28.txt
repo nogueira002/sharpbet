@@ -1,0 +1,135 @@
+======================================================
+  SharpBet — Tips do dia 2026-02-28
+  14 tip(s) com edge positivo
+======================================================
+
+  #1  Charlton Athletic FC vs Wrexham AFC  [Championship]  2026-02-28 15:00
+  Mercado  : Over/Under 2.5
+  Tip      : Over 2.5 Golos
+  Odd      : 1.97
+  Bookmaker: 50.8%  -->  Modelo: 57.1%
+  Edge     : +6.3%  |  Confianca: Media
+  Stake    : 3.2% da banca
+  ------------------------------------------------------
+
+  #2  Ipswich Town FC vs Swansea City AFC  [Championship]  2026-02-28 15:00
+  Mercado  : Resultado Final
+  Tip      : Vitoria Fora — Swansea City AFC
+  Odd      : 6.0
+  Bookmaker: 16.7%  -->  Modelo: 28.5%
+  Edge     : +11.8%  |  Confianca: Alta
+  Stake    : 3.5% da banca
+  ------------------------------------------------------
+
+  #3  Oxford United FC vs West Bromwich Albion FC  [Championship]  2026-02-28 15:00
+  Mercado  : Over/Under 2.5
+  Tip      : Under 2.5 Golos
+  Odd      : 2.06
+  Bookmaker: 48.5%  -->  Modelo: 76.5%
+  Edge     : +28.0%  |  Confianca: Alta
+  Stake    : 13.6% da banca
+  ------------------------------------------------------
+
+  #4  Leeds United FC vs Manchester City FC  [Premier League]  2026-02-28 17:30
+  Mercado  : Resultado Final
+  Tip      : Vitoria Casa — Leeds United FC
+  Odd      : 4.5
+  Bookmaker: 22.2%  -->  Modelo: 29.4%
+  Edge     : +7.1%  |  Confianca: Media
+  Stake    : 2.3% da banca
+  ------------------------------------------------------
+
+  #5  RCD Mallorca vs Real Sociedad de Fútbol  [La Liga]  2026-02-28 17:30
+  Mercado  : Over/Under 2.5
+  Tip      : Over 2.5 Golos
+  Odd      : 2.06
+  Bookmaker: 48.5%  -->  Modelo: 55.3%
+  Edge     : +6.7%  |  Confianca: Media
+  Stake    : 3.3% da banca
+  ------------------------------------------------------
+
+  #6  Real Oviedo vs Club Atlético de Madrid  [La Liga]  2026-02-28 20:00
+  Mercado  : Resultado Final
+  Tip      : Vitoria Casa — Real Oviedo
+  Odd      : 4.85
+  Bookmaker: 20.6%  -->  Modelo: 33.2%
+  Edge     : +12.6%  |  Confianca: Alta
+  Stake    : 4.0% da banca
+  ------------------------------------------------------
+
+  #7  FC Internazionale Milano vs Genoa CFC  [Serie A]  2026-02-28 19:45
+  Mercado  : Resultado Final
+  Tip      : Empate
+  Odd      : 5.2
+  Bookmaker: 19.2%  -->  Modelo: 26.3%
+  Edge     : +7.0%  |  Confianca: Media
+  Stake    : 2.2% da banca
+  ------------------------------------------------------
+
+  #8  Borussia Dortmund vs FC Bayern München  [Bundesliga]  2026-02-28 17:30
+  Mercado  : Resultado Final
+  Tip      : Vitoria Casa — Borussia Dortmund
+  Odd      : 4.2
+  Bookmaker: 23.8%  -->  Modelo: 34.2%
+  Edge     : +10.4%  |  Confianca: Alta
+  Stake    : 3.4% da banca
+  Extra    : Under 2.5 Golos @3.0  (Modelo: 39.6%  Edge: +6.3%)
+  ------------------------------------------------------
+
+  #9  CD Nacional vs Sporting Clube de Braga  [Primeira Liga]  2026-02-28 18:00
+  Mercado  : Resultado Final
+  Tip      : Vitoria Casa — CD Nacional
+  Odd      : 5.75
+  Bookmaker: 17.4%  -->  Modelo: 32.0%
+  Edge     : +14.6%  |  Confianca: Alta
+  Stake    : 4.4% da banca
+  ------------------------------------------------------
+
+  #10  Vitória SC vs FC Alverca  [Primeira Liga]  2026-02-28 20:30
+  Mercado  : Resultado Final
+  Tip      : Vitoria Fora — FC Alverca
+  Odd      : 4.4
+  Bookmaker: 22.7%  -->  Modelo: 29.8%
+  Edge     : +7.0%  |  Confianca: Media
+  Stake    : 2.3% da banca
+  Extra    : Over 2.5 Golos @2.04  (Modelo: 55.8%  Edge: +6.8%)
+  ------------------------------------------------------
+
+  #11  Heracles Almelo vs PSV  [Eredivisie]  2026-02-28 17:45
+  Mercado  : Over/Under 2.5
+  Tip      : Under 2.5 Golos
+  Odd      : 3.3
+  Bookmaker: 30.3%  -->  Modelo: 45.5%
+  Edge     : +15.1%  |  Confianca: Alta
+  Stake    : 5.5% da banca
+  Extra    : Vitoria Casa — Heracles Almelo @6.5  (Modelo: 23.5%  Edge: +8.1%)
+  ------------------------------------------------------
+
+  #12  NEC vs Fortuna Sittard  [Eredivisie]  2026-02-28 20:00
+  Mercado  : Resultado Final
+  Tip      : Empate
+  Odd      : 5.2
+  Bookmaker: 19.2%  -->  Modelo: 26.3%
+  Edge     : +7.1%  |  Confianca: Media
+  Stake    : 2.2% da banca
+  Extra    : Under 2.5 Golos @2.62  (Modelo: 45.0%  Edge: +6.8%)
+  ------------------------------------------------------
+
+  #13  AS Monaco FC vs Angers SCO  [Ligue 1]  2026-02-28 18:00
+  Mercado  : Resultado Final
+  Tip      : Empate
+  Odd      : 4.6
+  Bookmaker: 21.7%  -->  Modelo: 29.2%
+  Edge     : +7.5%  |  Confianca: Media
+  Stake    : 2.4% da banca
+  ------------------------------------------------------
+
+  #14  Le Havre AC vs Paris Saint-Germain FC  [Ligue 1]  2026-02-28 20:05
+  Mercado  : Over/Under 2.5
+  Tip      : Under 2.5 Golos
+  Odd      : 2.6
+  Bookmaker: 38.5%  -->  Modelo: 55.1%
+  Edge     : +16.6%  |  Confianca: Alta
+  Stake    : 6.8% da banca
+  Extra    : Vitoria Casa — Le Havre AC @8.8  (Modelo: 20.1%  Edge: +8.7%)
+  ------------------------------------------------------

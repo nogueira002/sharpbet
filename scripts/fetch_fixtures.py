@@ -1,81 +1,134 @@
-import requests
 from datetime import datetime
-from config import HEADERS_FOOTBALL, RAPIDAPI_HOST_FOOTBALL
+from config import USE_MOCK, fd_api_get, SUPPORTED_COMPETITIONS
 
-def fetch_todays_fixtures():
-    """
-    Vai buscar todos os jogos de hoje à API.
-    Retorna APENAS jogos que ainda não começaram (upcoming).
-    """
-    today = datetime.now().strftime("%Y%m%d")
-    url = f"https://{RAPIDAPI_HOST_FOOTBALL}/football-get-matches-by-date"
-    params = {"date": today}
 
+def fetch_todays_fixtures(target_date=None):
+    """
+    Vai buscar todos os jogos de uma data das ligas suportadas.
+    Se target_date for None, usa hoje.
+    """
+    if USE_MOCK:
+        from scripts.mock_data import MOCK_FIXTURES
+        return MOCK_FIXTURES
+
+    if target_date is None:
+        target_date = datetime.now().strftime("%Y-%m-%d")
+    today = target_date
     try:
-        response = requests.get(url, headers=HEADERS_FOOTBALL, params=params, timeout=15)
-        response.raise_for_status()
-        data = response.json()
-
-        all_matches = data.get("response", {}).get("matches", [])
+        r    = fd_api_get("/matches", {"date": today})
+        data = r.json()
 
         fixtures = []
-        for match in all_matches:
-            status = match.get("status", {})
-
-            # Ignora jogos já terminados, cancelados ou adiados
-            if status.get("finished") or status.get("cancelled"):
+        for match in data.get("matches", []):
+            code = match.get("competition", {}).get("code", "")
+            if code not in SUPPORTED_COMPETITIONS:
+                continue
+            # TIMED = hora confirmada, SCHEDULED = sem hora ainda
+            if match.get("status") not in ("SCHEDULED", "TIMED"):
                 continue
 
-            fixture = {
-                "fixture_id": match["id"],
-                "league_id": match.get("leagueId"),
-                "date": match.get("time"),
-                "home_team": match["home"]["name"],
-                "home_team_id": match["home"]["id"],
-                "away_team": match["away"]["name"],
-                "away_team_id": match["away"]["id"],
-                "status": "upcoming",
-            }
-            fixtures.append(fixture)
+            home = match.get("homeTeam", {})
+            away = match.get("awayTeam", {})
+            # Jogos de playoff cujos participantes ainda não são conhecidos têm id=None
+            if not home.get("id") or not away.get("id"):
+                continue
 
-        print(f"📅 {len(all_matches)} jogos totais hoje → {len(fixtures)} ainda por jogar")
+            comp = SUPPORTED_COMPETITIONS[code]
+            fixtures.append({
+                "fixture_id":   match["id"],
+                "league_id":    code,
+                "season":       match.get("season", {}).get("startYear", datetime.now().year),
+                "league":       comp["name"],
+                "country":      comp["country"],
+                "date":         match["utcDate"][:16].replace("T", " "),
+                "home_team":    home.get("name", ""),
+                "home_team_id": home["id"],
+                "away_team":    away.get("name", ""),
+                "away_team_id": away["id"],
+                "status":       "upcoming",
+            })
+
+        print(f"[fd.org] {len(fixtures)} jogos hoje nas ligas suportadas")
         return fixtures
 
     except Exception as e:
-        print(f"❌ Erro ao recolher fixtures: {e}")
+        print(f"Erro ao recolher fixtures: {e}")
         return []
 
 
-def fetch_team_recent_form(team_id, last_n=5):
+def fetch_team_recent_form(team_id, last_n=10):
     """
-    Vai buscar os últimos N jogos de uma equipa.
+    Vai buscar os últimos N jogos terminados de uma equipa.
+    Retorna lista ordenada do mais antigo para o mais recente
+    (analyze.py usa [-3:] e [-5:] para o momentum mais recente).
     """
-    url = f"https://{RAPIDAPI_HOST_FOOTBALL}/football-get-matches-by-team"
-    params = {"teamId": team_id, "last": last_n}
+    if USE_MOCK:
+        from scripts.mock_data import MOCK_FORM
+        return MOCK_FORM.get(team_id, [])
 
     try:
-        response = requests.get(url, headers=HEADERS_FOOTBALL, params=params, timeout=15)
-        response.raise_for_status()
-        data = response.json()
+        r = fd_api_get(f"/teams/{team_id}/matches", {
+            "status": "FINISHED",
+            "limit":  last_n,
+        })
+
+        matches_raw = r.json().get("matches", [])
+        # Garantir ordem: mais antigo primeiro (mais recente no fim)
+        matches_sorted = sorted(matches_raw, key=lambda m: m.get("utcDate", ""))
 
         form = []
-        matches = data.get("response", {}).get("matches", [])
-
-        for match in matches:
-            status = match.get("status", {})
-            if not status.get("finished"):
-                continue
-
-            result = {
-                "home_id": match["home"]["id"],
-                "away_id": match["away"]["id"],
-                "home_goals": match["home"].get("score", 0),
-                "away_goals": match["away"].get("score", 0),
-            }
-            form.append(result)
-
+        for match in matches_sorted:
+            score = match.get("score", {}).get("fullTime", {})
+            hg    = score.get("home") or 0
+            ag    = score.get("away") or 0
+            form.append({
+                "home_id":    match["homeTeam"]["id"],
+                "away_id":    match["awayTeam"]["id"],
+                "home_goals": hg,
+                "away_goals": ag,
+                "winner": True if hg > ag else (False if ag > hg else None),
+            })
         return form
 
     except Exception as e:
-        print(f"⚠️ Sem forma para equipa {team_id}: {e}")
+        print(f"Sem forma para equipa {team_id}: {e}")
         return []
+
+
+def fetch_standings(competition_code, season=None):
+    """
+    Vai buscar a tabela classificativa atual de uma liga.
+    Retorna dict: {team_id: position_norm} onde 0=1º, 1=último.
+    1 request por liga — é feito cache em analyze.py.
+    """
+    if USE_MOCK:
+        return {}
+
+    try:
+        r    = fd_api_get(f"/competitions/{competition_code}/standings")
+        data = r.json()
+
+        standings_list = data.get("standings", [])
+        if not standings_list:
+            return {}
+
+        # Usar TOTAL (não HOME/AWAY separados)
+        table = next(
+            (s["table"] for s in standings_list if s.get("type") == "TOTAL"),
+            standings_list[0]["table"],
+        )
+
+        total = len(table)
+        return {
+            entry["team"]["id"]: (entry["position"] - 1) / max(total - 1, 1)
+            for entry in table
+        }
+
+    except Exception as e:
+        print(f"Sem standings para {competition_code}: {e}")
+        return {}
+
+
+def fetch_injuries(fixture_id):
+    """Lesões não estão disponíveis no plano gratuito do football-data.org."""
+    return {}

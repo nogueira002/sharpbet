@@ -1,0 +1,41 @@
+name: SharpBet — Tips Diárias
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # todos os dias às 08:00 UTC (09:00 Portugal)
+  workflow_dispatch:        # permite correr manualmente no GitHub
+
+jobs:
+  run-tips:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Correr SharpBet
+        env:
+          PYTHONIOENCODING: utf-8
+          FOOTBALLDATA_KEY: ${{ secrets.FOOTBALLDATA_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py
+
+      - name: Guardar ficheiros atualizados
+        run: |
+          git config user.name "SharpBet Bot"
+          git config user.email "bot@sharpbet.local"
+          git add models/saved/raw_fixtures.json models/saved/elo_ratings.json models/saved/sharpbet.db tips/ || true
+          git diff --staged --quiet || git commit -m "chore: atualizar dados diários [skip ci]"
+          git push || true

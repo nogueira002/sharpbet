@@ -1,0 +1,40 @@
+======================================================
+  SharpBet — Tips do dia 2026-03-08
+  4 tip(s) com edge positivo
+======================================================
+
+  #1  ACF Fiorentina vs Parma Calcio 1913  [Serie A]  2026-03-08 14:00
+  Mercado  : Over/Under 2.5
+  Tip      : Under 2.5 Golos
+  Odd      : 1.95
+  Bookmaker: 51.3%  -->  Modelo: 62.6%
+  Edge     : +11.3%  |  Confianca: Alta
+  Stake    : 5.8% da banca
+  ------------------------------------------------------
+
+  #2  Sevilla FC vs Rayo Vallecano de Madrid  [La Liga]  2026-03-08 17:30
+  Mercado  : Over/Under 2.5
+  Tip      : Over 2.5 Golos
+  Odd      : 2.11
+  Bookmaker: 47.4%  -->  Modelo: 60.2%
+  Edge     : +12.8%  |  Confianca: Alta
+  Stake    : 6.1% da banca
+  ------------------------------------------------------
+
+  #3  Olympique Lyonnais vs Paris FC  [Ligue 1]  2026-03-08 19:45
+  Mercado  : Over/Under 2.5
+  Tip      : Under 2.5 Golos
+  Odd      : 2.03
+  Bookmaker: 49.3%  -->  Modelo: 62.4%
+  Edge     : +13.1%  |  Confianca: Alta
+  Stake    : 6.5% da banca
+  ------------------------------------------------------
+
+  #4  FC St. Pauli 1910 vs Eintracht Frankfurt  [Bundesliga]  2026-03-08 14:30
+  Mercado  : Over/Under 2.5
+  Tip      : Over 2.5 Golos
+  Odd      : 1.93
+  Bookmaker: 51.8%  -->  Modelo: 61.9%
+  Edge     : +10.1%  |  Confianca: Alta
+  Stake    : 5.2% da banca
+  ------------------------------------------------------

@@ -1,0 +1,2822 @@
+{
+  "la fiorita": {
+    "rating": 1438.1,
+    "name": "La Fiorita"
+  },
+  "inter club d escaldes": {
+    "rating": 1495.02,
+    "name": "Inter Club d'Escaldes"
+  },
+  "levadia tallinn": {
+    "rating": 1456.84,
+    "name": "FC Levadia Tallinn"
+  },
+  "vikingur reykjavik": {
+    "rating": 1530.7,
+    "name": "Vikingur Reykjavik"
+  },
+  "pyunik yerevan": {
+    "rating": 1494.76,
+    "name": "Pyunik Yerevan"
+  },
+  "cfr 1907 cluj": {
+    "rating": 1536.19,
+    "name": "CFR 1907 Cluj"
+  },
+  "malmo ff": {
+    "rating": 1453.56,
+    "name": "Malmo FF"
+  },
+  "st joseph s": {
+    "rating": 1481.2,
+    "name": "St Joseph S Fc"
+  },
+  "larne": {
+    "rating": 1428.51,
+    "name": "Larne"
+  },
+  "gzira united": {
+    "rating": 1478.04,
+    "name": "Gzira United"
+  },
+  "atletic club d escaldes": {
+    "rating": 1444.43,
+    "name": "Atlètic Club d'Escaldes"
+  },
+  "ludogorets": {
+    "rating": 1525.12,
+    "name": "Ludogorets"
+  },
+  "sutjeska": {
+    "rating": 1491.84,
+    "name": "Sutjeska"
+  },
+  "lech poznan": {
+    "rating": 1617.87,
+    "name": "Lech Poznan"
+  },
+  "qarabag": {
+    "rating": 1504.07,
+    "name": "Qarabag"
+  },
+  "the new saints": {
+    "rating": 1442.19,
+    "name": "The New Saints"
+  },
+  "linfield": {
+    "rating": 1459.82,
+    "name": "Linfield"
+  },
+  "ballkani": {
+    "rating": 1512.1,
+    "name": "Ballkani"
+  },
+  "zalgiris vilnius": {
+    "rating": 1480.85,
+    "name": "FK Zalgiris Vilnius"
+  },
+  "shamrock rovers": {
+    "rating": 1484.38,
+    "name": "Shamrock Rovers"
+  },
+  "hibernians": {
+    "rating": 1489.35,
+    "name": "Hibernians"
+  },
+  "shkupi 1927": {
+    "rating": 1450.06,
+    "name": "Shkupi 1927"
+  },
+  "lincoln red imps": {
+    "rating": 1448.54,
+    "name": "Lincoln Red Imps FC"
+  },
+  "tobol kostanay": {
+    "rating": 1480.84,
+    "name": "FK Tobol Kostanay"
+  },
+  "ferencvarosi tc": {
+    "rating": 1662.1,
+    "name": "Ferencvarosi TC"
+  },
+  "inter turku": {
+    "rating": 1499.51,
+    "name": "Inter Turku"
+  },
+  "drita": {
+    "rating": 1477.75,
+    "name": "Drita"
+  },
+  "bodo glimt": {
+    "rating": 1584.57,
+    "name": "Bodo/Glimt"
+  },
+  "ki klaksvik": {
+    "rating": 1485.96,
+    "name": "KI Klaksvik"
+  },
+  "hjk helsinki": {
+    "rating": 1438.22,
+    "name": "HJK helsinki"
+  },
+  "rigas fs": {
+    "rating": 1479.91,
+    "name": "Rīgas FS"
+  },
+  "f91 dudelange": {
+    "rating": 1510.66,
+    "name": "F91 Dudelange"
+  },
+  "tirana": {
+    "rating": 1447.63,
+    "name": "Tirana"
+  },
+  "zrinjski": {
+    "rating": 1484.9,
+    "name": "Zrinjski"
+  },
+  "sheriff tiraspol": {
+    "rating": 1413.58,
+    "name": "Sheriff Tiraspol"
+  },
+  "vikingur gota": {
+    "rating": 1485.19,
+    "name": "Vikingur Gota"
+  },
+  "europa": {
+    "rating": 1462.05,
+    "name": "Europa"
+  },
+  "maribor": {
+    "rating": 1459.35,
+    "name": "Maribor"
+  },
+  "shakhter soligorsk": {
+    "rating": 1481.15,
+    "name": "Shakhter Soligorsk"
+  },
+  "slovan bratislava": {
+    "rating": 1497.78,
+    "name": "Slovan Bratislava"
+  },
+  "dinamo batumi": {
+    "rating": 1473.06,
+    "name": "Dinamo Batumi"
+  },
+  "alashkert": {
+    "rating": 1497.92,
+    "name": "Alashkert"
+  },
+  "hamrun spartans": {
+    "rating": 1458.76,
+    "name": "Hamrun Spartans"
+  },
+  "ue santa coloma": {
+    "rating": 1433.05,
+    "name": "UE Santa Coloma"
+  },
+  "breidablik": {
+    "rating": 1464.4,
+    "name": "Breidablik"
+  },
+  "pogon szczecin": {
+    "rating": 1575.44,
+    "name": "Pogon Szczecin"
+  },
+  "kr reykjavik": {
+    "rating": 1500.49,
+    "name": "KR Reykjavik"
+  },
+  "flora tallinn": {
+    "rating": 1450.94,
+    "name": "Flora Tallinn"
+  },
+  "sjk": {
+    "rating": 1472.53,
+    "name": "SJK"
+  },
+  "kups": {
+    "rating": 1481.33,
+    "name": "KuPS"
+  },
+  "dila": {
+    "rating": 1476.87,
+    "name": "Dila"
+  },
+  "borac banja luka": {
+    "rating": 1498.42,
+    "name": "Borac Banja Luka"
+  },
+  "b36 torshavn": {
+    "rating": 1464.81,
+    "name": "B36 Torshavn"
+  },
+  "saburtalo": {
+    "rating": 1485.73,
+    "name": "Saburtalo"
+  },
+  "partizani": {
+    "rating": 1519.5,
+    "name": "Partizani"
+  },
+  "panevezys": {
+    "rating": 1460.78,
+    "name": "Panevėžys"
+  },
+  "milsami orhei": {
+    "rating": 1486.99,
+    "name": "Milsami Orhei"
+  },
+  "magpies": {
+    "rating": 1483.63,
+    "name": "Magpies"
+  },
+  "crusaders": {
+    "rating": 1491.33,
+    "name": "Crusaders FC"
+  },
+  "ruzomberok": {
+    "rating": 1492.46,
+    "name": "Ružomberok"
+  },
+  "kauno zalgiris": {
+    "rating": 1475.14,
+    "name": "Kauno Žalgiris"
+  },
+  "olimpija ljubljana": {
+    "rating": 1525.29,
+    "name": "Olimpija Ljubljana"
+  },
+  "differdange 03": {
+    "rating": 1497.28,
+    "name": "FC Differdange 03"
+  },
+  "dinamo tbilisi": {
+    "rating": 1451.28,
+    "name": "Dinamo Tbilisi"
+  },
+  "paide": {
+    "rating": 1485.67,
+    "name": "Paide"
+  },
+  "floriana": {
+    "rating": 1482.82,
+    "name": "Floriana"
+  },
+  "petrocub": {
+    "rating": 1447.43,
+    "name": "Petrocub"
+  },
+  "sfintul gheorghe": {
+    "rating": 1480.64,
+    "name": "Sfîntul Gheorghe"
+  },
+  "mura": {
+    "rating": 1520.24,
+    "name": "Mura"
+  },
+  "bala town": {
+    "rating": 1476.96,
+    "name": "Bala Town"
+  },
+  "sligo rovers": {
+    "rating": 1529.54,
+    "name": "Sligo Rovers"
+  },
+  "dinamo minsk": {
+    "rating": 1447.7,
+    "name": "Dinamo Minsk"
+  },
+  "decic": {
+    "rating": 1478.77,
+    "name": "Dečić"
+  },
+  "shkendija": {
+    "rating": 1514.98,
+    "name": "Shkendija"
+  },
+  "ararat": {
+    "rating": 1490.49,
+    "name": "Ararat"
+  },
+  "fola esch": {
+    "rating": 1480.64,
+    "name": "Fola Esch"
+  },
+  "tre fiori": {
+    "rating": 1508.31,
+    "name": "Tre Fiori"
+  },
+  "laci": {
+    "rating": 1499.99,
+    "name": "Laci"
+  },
+  "iskra": {
+    "rating": 1489.92,
+    "name": "Iskra"
+  },
+  "hb torshavn": {
+    "rating": 1490.35,
+    "name": "HB Torshavn"
+  },
+  "newtown": {
+    "rating": 1472.39,
+    "name": "Newtown AFC"
+  },
+  "gjilani": {
+    "rating": 1489.46,
+    "name": "Gjilani"
+  },
+  "liepaja": {
+    "rating": 1471.67,
+    "name": "FK Liepaja"
+  },
+  "lechia gdansk": {
+    "rating": 1482.71,
+    "name": "Lechia Gdansk"
+  },
+  "akademija pandev": {
+    "rating": 1480.49,
+    "name": "Akademija Pandev"
+  },
+  "buducnost podgorica": {
+    "rating": 1481.2,
+    "name": "Buducnost Podgorica"
+  },
+  "llapi": {
+    "rating": 1468.34,
+    "name": "Llapi"
+  },
+  "dunajska streda": {
+    "rating": 1495.13,
+    "name": "Dunajska Streda"
+  },
+  "cliftonville": {
+    "rating": 1462.68,
+    "name": "Cliftonville FC"
+  },
+  "derry city": {
+    "rating": 1485.02,
+    "name": "Derry City"
+  },
+  "riga": {
+    "rating": 1500.7,
+    "name": "Riga"
+  },
+  "tre penne": {
+    "rating": 1442.63,
+    "name": "Tre Penne"
+  },
+  "tuzla city": {
+    "rating": 1498.78,
+    "name": "Tuzla City"
+  },
+  "zurich": {
+    "rating": 1489.22,
+    "name": "FC Zurich"
+  },
+  "midtjylland": {
+    "rating": 1616.1,
+    "name": "FC Midtjylland"
+  },
+  "aek larnaca": {
+    "rating": 1481.5,
+    "name": "AEK Larnaca"
+  },
+  "dinamo zagreb": {
+    "rating": 1634.78,
+    "name": "Dinamo Zagreb"
+  },
+  "plzen": {
+    "rating": 1663.12,
+    "name": "Plzen"
+  },
+  "maccabi haifa": {
+    "rating": 1493.41,
+    "name": "Maccabi Haifa"
+  },
+  "olympiakos piraeus": {
+    "rating": 1728.09,
+    "name": "Olympiakos Piraeus"
+  },
+  "botev plovdiv": {
+    "rating": 1483.33,
+    "name": "Botev Plovdiv"
+  },
+  "apoel nicosia": {
+    "rating": 1528.43,
+    "name": "Apoel Nicosia"
+  },
+  "dynamo kyiv": {
+    "rating": 1447.61,
+    "name": "Dynamo Kyiv"
+  },
+  "fenerbahce": {
+    "rating": 1712.79,
+    "name": "Fenerbahçe"
+  },
+  "kyzyl zhar": {
+    "rating": 1491.63,
+    "name": "Kyzyl-Zhar"
+  },
+  "nk osijek": {
+    "rating": 1496.35,
+    "name": "NK Osijek"
+  },
+  "young boys": {
+    "rating": 1493.57,
+    "name": "BSC Young Boys"
+  },
+  "kairat almaty": {
+    "rating": 1480.64,
+    "name": "Kairat Almaty"
+  },
+  "kisvarda": {
+    "rating": 1449.06,
+    "name": "Kisvarda FC"
+  },
+  "ararat armenia": {
+    "rating": 1502.82,
+    "name": "Ararat-Armenia"
+  },
+  "valmiera bss": {
+    "rating": 1464.49,
+    "name": "Valmiera / BSS"
+  },
+  "makedonija gjp": {
+    "rating": 1469.27,
+    "name": "Makedonija GjP"
+  },
+  "cska sofia": {
+    "rating": 1488.58,
+    "name": "CSKA Sofia"
+  },
+  "molde": {
+    "rating": 1495.23,
+    "name": "Molde"
+  },
+  "if elfsborg": {
+    "rating": 1544.96,
+    "name": "IF Elfsborg"
+  },
+  "zira": {
+    "rating": 1524.33,
+    "name": "Zira"
+  },
+  "maccabi tel aviv": {
+    "rating": 1577.0,
+    "name": "Maccabi Tel Aviv"
+  },
+  "lillestrom": {
+    "rating": 1499.06,
+    "name": "Lillestrom"
+  },
+  "fcsb": {
+    "rating": 1563.05,
+    "name": "FCSB"
+  },
+  "koper": {
+    "rating": 1488.57,
+    "name": "Koper"
+  },
+  "vaduz": {
+    "rating": 1471.04,
+    "name": "FC Vaduz"
+  },
+  "brondby": {
+    "rating": 1593.74,
+    "name": "Brondby"
+  },
+  "suduva marijampole": {
+    "rating": 1480.64,
+    "name": "Suduva Marijampole"
+  },
+  "viborg": {
+    "rating": 1519.25,
+    "name": "Viborg"
+  },
+  "basel 1893": {
+    "rating": 1527.72,
+    "name": "FC Basel 1893"
+  },
+  "fehervar": {
+    "rating": 1441.83,
+    "name": "Fehérvár FC"
+  },
+  "qabala": {
+    "rating": 1479.11,
+    "name": "Qabala"
+  },
+  "sparta praha": {
+    "rating": 1602.85,
+    "name": "Sparta Praha"
+  },
+  "viking": {
+    "rating": 1510.5,
+    "name": "Viking"
+  },
+  "levski sofia": {
+    "rating": 1536.44,
+    "name": "Levski Sofia"
+  },
+  "paok": {
+    "rating": 1618.34,
+    "name": "PAOK"
+  },
+  "slavia praha": {
+    "rating": 1717.63,
+    "name": "Slavia Praha"
+  },
+  "antwerp": {
+    "rating": 1531.59,
+    "name": "Antwerp"
+  },
+  "rapid vienna": {
+    "rating": 1541.33,
+    "name": "Rapid Vienna"
+  },
+  "vorskla poltava": {
+    "rating": 1507.2,
+    "name": "Vorskla Poltava"
+  },
+  "aik stockholm": {
+    "rating": 1471.51,
+    "name": "AIK Stockholm"
+  },
+  "radnicki nis": {
+    "rating": 1450.02,
+    "name": "Radnicki NIS"
+  },
+  "hapoel beer sheva": {
+    "rating": 1529.69,
+    "name": "Hapoel Beer Sheva"
+  },
+  "aris": {
+    "rating": 1479.73,
+    "name": "Aris"
+  },
+  "neftchi baku": {
+    "rating": 1500.15,
+    "name": "Neftchi Baku"
+  },
+  "basaksehir": {
+    "rating": 1551.45,
+    "name": "Başakşehir"
+  },
+  "maccabi netanya": {
+    "rating": 1489.92,
+    "name": "Maccabi Netanya"
+  },
+  "aris thessalonikis": {
+    "rating": 1578.79,
+    "name": "Aris Thessalonikis"
+  },
+  "gomel": {
+    "rating": 1480.49,
+    "name": "FC Gomel"
+  },
+  "racing union luxembourg": {
+    "rating": 1480.64,
+    "name": "Racing FC Union Luxembourg"
+  },
+  "cukaricki": {
+    "rating": 1482.53,
+    "name": "Cukaricki"
+  },
+  "sepsi osk sfantu gheorghe": {
+    "rating": 1518.31,
+    "name": "Sepsi OSK Sfantu Gheorghe"
+  },
+  "az alkmaar": {
+    "rating": 1619.55,
+    "name": "AZ Alkmaar"
+  },
+  "hnk rijeka": {
+    "rating": 1590.59,
+    "name": "HNK Rijeka"
+  },
+  "djurgardens if": {
+    "rating": 1560.46,
+    "name": "Djurgardens IF"
+  },
+  "spartak trnava": {
+    "rating": 1495.27,
+    "name": "Spartak Trnava"
+  },
+  "velez": {
+    "rating": 1471.81,
+    "name": "Velež"
+  },
+  "motherwell": {
+    "rating": 1481.26,
+    "name": "Motherwell"
+  },
+  "st patrick s athl": {
+    "rating": 1506.39,
+    "name": "St Patrick's Athl."
+  },
+  "bate borisov": {
+    "rating": 1468.4,
+    "name": "Bate Borisov"
+  },
+  "konyaspor": {
+    "rating": 1486.09,
+    "name": "Konyaspor"
+  },
+  "vllaznia shkoder": {
+    "rating": 1480.18,
+    "name": "Vllaznia Shkodër"
+  },
+  "cs universitatea craiova": {
+    "rating": 1509.92,
+    "name": "CS Universitatea Craiova"
+  },
+  "rakow czestochowa": {
+    "rating": 1618.02,
+    "name": "Raków Częstochowa"
+  },
+  "astana": {
+    "rating": 1490.06,
+    "name": "FC Astana"
+  },
+  "guimaraes": {
+    "rating": 1607.35,
+    "name": "Guimaraes"
+  },
+  "puskas academy": {
+    "rating": 1623.6,
+    "name": "Puskas Academy"
+  },
+  "monaco": {
+    "rating": 1628.66,
+    "name": "Monaco"
+  },
+  "psv eindhoven": {
+    "rating": 1720.9,
+    "name": "PSV Eindhoven"
+  },
+  "union st gilloise": {
+    "rating": 1711.24,
+    "name": "Union St. Gilloise"
+  },
+  "rangers": {
+    "rating": 1532.47,
+    "name": "Rangers"
+  },
+  "benfica": {
+    "rating": 1731.4,
+    "name": "Benfica"
+  },
+  "apollon limassol": {
+    "rating": 1493.9,
+    "name": "Apollon Limassol"
+  },
+  "gil vicente": {
+    "rating": 1438.1,
+    "name": "GIL Vicente"
+  },
+  "wolfsberger ac": {
+    "rating": 1565.18,
+    "name": "Wolfsberger AC"
+  },
+  "sturm graz": {
+    "rating": 1604.09,
+    "name": "Sturm Graz"
+  },
+  "crvena zvezda": {
+    "rating": 1726.31,
+    "name": "FK Crvena Zvezda"
+  },
+  "partizan": {
+    "rating": 1597.56,
+    "name": "FK Partizan"
+  },
+  "anderlecht": {
+    "rating": 1585.52,
+    "name": "Anderlecht"
+  },
+  "slovacko": {
+    "rating": 1435.95,
+    "name": "Slovácko"
+  },
+  "panathinaikos": {
+    "rating": 1616.36,
+    "name": "Panathinaikos"
+  },
+  "zorya luhansk": {
+    "rating": 1501.09,
+    "name": "Zorya Luhansk"
+  },
+  "universitatea craiova": {
+    "rating": 1498.58,
+    "name": "Universitatea Craiova"
+  },
+  "lugano": {
+    "rating": 1482.93,
+    "name": "FC Lugano"
+  },
+  "twente": {
+    "rating": 1571.04,
+    "name": "Twente"
+  },
+  "hnk hajduk split": {
+    "rating": 1573.94,
+    "name": "HNK Hajduk Split"
+  },
+  "dundee utd": {
+    "rating": 1500.65,
+    "name": "Dundee Utd"
+  },
+  "eintracht frankfurt": {
+    "rating": 1606.59,
+    "name": "Eintracht Frankfurt"
+  },
+  "bayern munich": {
+    "rating": 1666.46,
+    "name": "Bayern Munich"
+  },
+  "crystal palace": {
+    "rating": 1587.45,
+    "name": "Crystal Palace"
+  },
+  "arsenal": {
+    "rating": 1743.06,
+    "name": "Arsenal FC"
+  },
+  "lyon": {
+    "rating": 1619.38,
+    "name": "Lyon"
+  },
+  "ajaccio": {
+    "rating": 1379.53,
+    "name": "Ajaccio"
+  },
+  "arouca": {
+    "rating": 1493.42,
+    "name": "FC Arouca"
+  },
+  "fulham": {
+    "rating": 1537.31,
+    "name": "Fulham FC"
+  },
+  "liverpool": {
+    "rating": 1759.23,
+    "name": "Liverpool"
+  },
+  "vfl wolfsburg": {
+    "rating": 1471.72,
+    "name": "VfL Wolfsburg"
+  },
+  "werder bremen": {
+    "rating": 1531.16,
+    "name": "Werder Bremen"
+  },
+  "borussia monchengladbach": {
+    "rating": 1472.4,
+    "name": "Borussia Mönchengladbach"
+  },
+  "1899 hoffenheim": {
+    "rating": 1464.15,
+    "name": "1899 Hoffenheim"
+  },
+  "augsburg": {
+    "rating": 1476.75,
+    "name": "FC Augsburg"
+  },
+  "freiburg": {
+    "rating": 1551.25,
+    "name": "SC Freiburg"
+  },
+  "vfl bochum": {
+    "rating": 1391.93,
+    "name": "VfL Bochum"
+  },
+  "fsv mainz 05": {
+    "rating": 1541.49,
+    "name": "FSV Mainz 05"
+  },
+  "union berlin": {
+    "rating": 1484.72,
+    "name": "Union Berlin"
+  },
+  "hertha berlin": {
+    "rating": 1425.59,
+    "name": "Hertha Berlin"
+  },
+  "newcastle": {
+    "rating": 1622.61,
+    "name": "Newcastle"
+  },
+  "nottingham forest": {
+    "rating": 1572.2,
+    "name": "Nottingham Forest FC"
+  },
+  "bournemouth": {
+    "rating": 1555.68,
+    "name": "Bournemouth"
+  },
+  "aston villa": {
+    "rating": 1665.98,
+    "name": "Aston Villa FC"
+  },
+  "tottenham": {
+    "rating": 1549.63,
+    "name": "Tottenham"
+  },
+  "southampton": {
+    "rating": 1395.44,
+    "name": "Southampton FC"
+  },
+  "leeds": {
+    "rating": 1650.41,
+    "name": "Leeds"
+  },
+  "wolves": {
+    "rating": 1499.78,
+    "name": "Wolves"
+  },
+  "rio ave": {
+    "rating": 1478.51,
+    "name": "Rio Ave"
+  },
+  "vizela": {
+    "rating": 1398.14,
+    "name": "Vizela"
+  },
+  "strasbourg": {
+    "rating": 1566.1,
+    "name": "Strasbourg"
+  },
+  "everton": {
+    "rating": 1558.79,
+    "name": "Everton"
+  },
+  "chelsea": {
+    "rating": 1698.55,
+    "name": "Chelsea FC"
+  },
+  "borussia dortmund": {
+    "rating": 1669.89,
+    "name": "Borussia Dortmund"
+  },
+  "bayer leverkusen": {
+    "rating": 1699.75,
+    "name": "Bayer Leverkusen"
+  },
+  "estoril": {
+    "rating": 1493.2,
+    "name": "Estoril"
+  },
+  "famalicao": {
+    "rating": 1526.54,
+    "name": "FC Famalicão"
+  },
+  "clermont foot": {
+    "rating": 1444.18,
+    "name": "Clermont Foot"
+  },
+  "paris saint germain": {
+    "rating": 1760.22,
+    "name": "Paris Saint-Germain FC"
+  },
+  "porto": {
+    "rating": 1666.03,
+    "name": "FC Porto"
+  },
+  "maritimo": {
+    "rating": 1405.48,
+    "name": "Maritimo"
+  },
+  "toulouse": {
+    "rating": 1498.34,
+    "name": "Toulouse FC"
+  },
+  "nice": {
+    "rating": 1581.94,
+    "name": "Nice"
+  },
+  "manchester united": {
+    "rating": 1577.39,
+    "name": "Manchester United"
+  },
+  "brighton": {
+    "rating": 1604.25,
+    "name": "Brighton"
+  },
+  "leicester": {
+    "rating": 1443.83,
+    "name": "Leicester"
+  },
+  "brentford": {
+    "rating": 1565.18,
+    "name": "Brentford"
+  },
+  "angers": {
+    "rating": 1411.96,
+    "name": "Angers"
+  },
+  "nantes": {
+    "rating": 1444.03,
+    "name": "FC Nantes"
+  },
+  "lille": {
+    "rating": 1638.85,
+    "name": "Lille"
+  },
+  "auxerre": {
+    "rating": 1481.19,
+    "name": "Auxerre"
+  },
+  "montpellier": {
+    "rating": 1372.84,
+    "name": "Montpellier"
+  },
+  "estac troyes": {
+    "rating": 1375.29,
+    "name": "Estac Troyes"
+  },
+  "lens": {
+    "rating": 1567.42,
+    "name": "Lens"
+  },
+  "stade brestois 29": {
+    "rating": 1564.89,
+    "name": "Stade Brestois 29"
+  },
+  "vfb stuttgart": {
+    "rating": 1569.05,
+    "name": "VfB Stuttgart"
+  },
+  "rb leipzig": {
+    "rating": 1565.8,
+    "name": "RB Leipzig"
+  },
+  "santa clara": {
+    "rating": 1512.02,
+    "name": "Santa Clara"
+  },
+  "casa pia": {
+    "rating": 1485.32,
+    "name": "Casa Pia"
+  },
+  "rennes": {
+    "rating": 1505.37,
+    "name": "Rennes"
+  },
+  "lorient": {
+    "rating": 1436.9,
+    "name": "Lorient"
+  },
+  "west ham": {
+    "rating": 1520.38,
+    "name": "West Ham"
+  },
+  "manchester city": {
+    "rating": 1702.49,
+    "name": "Manchester City FC"
+  },
+  "1 koln": {
+    "rating": 1431.09,
+    "name": "1. FC Köln"
+  },
+  "schalke 04": {
+    "rating": 1454.11,
+    "name": "FC Schalke 04"
+  },
+  "braga": {
+    "rating": 1651.0,
+    "name": "SC Braga"
+  },
+  "sporting cp": {
+    "rating": 1741.61,
+    "name": "Sporting CP"
+  },
+  "marseille": {
+    "rating": 1606.58,
+    "name": "Marseille"
+  },
+  "reims": {
+    "rating": 1454.78,
+    "name": "Reims"
+  },
+  "portimonense": {
+    "rating": 1400.42,
+    "name": "Portimonense"
+  },
+  "boavista": {
+    "rating": 1378.65,
+    "name": "Boavista"
+  },
+  "chaves": {
+    "rating": 1403.25,
+    "name": "Chaves"
+  },
+  "pacos ferreira": {
+    "rating": 1407.18,
+    "name": "Pacos Ferreira"
+  },
+  "osasuna": {
+    "rating": 1534.0,
+    "name": "Osasuna"
+  },
+  "sevilla": {
+    "rating": 1459.35,
+    "name": "Sevilla"
+  },
+  "celta vigo": {
+    "rating": 1527.15,
+    "name": "Celta Vigo"
+  },
+  "espanyol": {
+    "rating": 1468.64,
+    "name": "Espanyol"
+  },
+  "ac milan": {
+    "rating": 1630.29,
+    "name": "AC Milan"
+  },
+  "udinese": {
+    "rating": 1470.75,
+    "name": "Udinese"
+  },
+  "sampdoria": {
+    "rating": 1365.55,
+    "name": "Sampdoria"
+  },
+  "atalanta": {
+    "rating": 1666.34,
+    "name": "Atalanta"
+  },
+  "valladolid": {
+    "rating": 1320.38,
+    "name": "Valladolid"
+  },
+  "villarreal": {
+    "rating": 1636.77,
+    "name": "Villarreal"
+  },
+  "lecce": {
+    "rating": 1441.85,
+    "name": "Lecce"
+  },
+  "inter": {
+    "rating": 1767.43,
+    "name": "Inter"
+  },
+  "monza": {
+    "rating": 1368.08,
+    "name": "Monza"
+  },
+  "torino": {
+    "rating": 1506.26,
+    "name": "Torino FC"
+  },
+  "barcelona": {
+    "rating": 1774.05,
+    "name": "FC Barcelona"
+  },
+  "rayo vallecano": {
+    "rating": 1513.83,
+    "name": "Rayo Vallecano"
+  },
+  "cadiz": {
+    "rating": 1434.62,
+    "name": "Cadiz"
+  },
+  "real sociedad": {
+    "rating": 1530.34,
+    "name": "Real Sociedad"
+  },
+  "lazio": {
+    "rating": 1636.69,
+    "name": "Lazio"
+  },
+  "bologna": {
+    "rating": 1608.46,
+    "name": "Bologna"
+  },
+  "fiorentina": {
+    "rating": 1620.32,
+    "name": "Fiorentina"
+  },
+  "cremonese": {
+    "rating": 1417.67,
+    "name": "Cremonese"
+  },
+  "valencia": {
+    "rating": 1512.46,
+    "name": "Valencia"
+  },
+  "girona": {
+    "rating": 1474.39,
+    "name": "Girona FC"
+  },
+  "salernitana": {
+    "rating": 1360.69,
+    "name": "Salernitana"
+  },
+  "as roma": {
+    "rating": 1682.82,
+    "name": "AS Roma"
+  },
+  "spezia": {
+    "rating": 1407.59,
+    "name": "Spezia"
+  },
+  "empoli": {
+    "rating": 1421.44,
+    "name": "Empoli"
+  },
+  "almeria": {
+    "rating": 1388.34,
+    "name": "Almeria"
+  },
+  "real madrid": {
+    "rating": 1768.56,
+    "name": "Real Madrid CF"
+  },
+  "athletic club": {
+    "rating": 1632.3,
+    "name": "Athletic Club"
+  },
+  "mallorca": {
+    "rating": 1480.4,
+    "name": "Mallorca"
+  },
+  "hellas verona": {
+    "rating": 1452.02,
+    "name": "Hellas Verona"
+  },
+  "napoli": {
+    "rating": 1680.33,
+    "name": "Napoli"
+  },
+  "getafe": {
+    "rating": 1454.02,
+    "name": "Getafe"
+  },
+  "atletico madrid": {
+    "rating": 1679.71,
+    "name": "Atletico Madrid"
+  },
+  "juventus": {
+    "rating": 1679.91,
+    "name": "Juventus FC"
+  },
+  "sassuolo": {
+    "rating": 1409.73,
+    "name": "Sassuolo"
+  },
+  "real betis": {
+    "rating": 1607.06,
+    "name": "Real Betis"
+  },
+  "elche": {
+    "rating": 1409.22,
+    "name": "Elche"
+  },
+  "copenhagen": {
+    "rating": 1620.52,
+    "name": "FC Copenhagen"
+  },
+  "trabzonspor": {
+    "rating": 1548.86,
+    "name": "Trabzonspor"
+  },
+  "silkeborg": {
+    "rating": 1514.48,
+    "name": "Silkeborg"
+  },
+  "sivasspor": {
+    "rating": 1450.61,
+    "name": "Sivasspor"
+  },
+  "heart of midlothian": {
+    "rating": 1444.11,
+    "name": "Heart Of Midlothian"
+  },
+  "dnipro 1": {
+    "rating": 1460.88,
+    "name": "Dnipro-1"
+  },
+  "gent": {
+    "rating": 1522.19,
+    "name": "Gent"
+  },
+  "omonia nicosia": {
+    "rating": 1509.41,
+    "name": "Omonia Nicosia"
+  },
+  "austria vienna": {
+    "rating": 1578.38,
+    "name": "Austria Vienna"
+  },
+  "shakhtar donetsk": {
+    "rating": 1501.12,
+    "name": "Shakhtar Donetsk"
+  },
+  "celtic": {
+    "rating": 1494.46,
+    "name": "Celtic"
+  },
+  "red bull salzburg": {
+    "rating": 1591.89,
+    "name": "Red Bull Salzburg"
+  },
+  "ajax": {
+    "rating": 1647.21,
+    "name": "AFC Ajax"
+  },
+  "club brugge kv": {
+    "rating": 1701.22,
+    "name": "Club Brugge KV"
+  },
+  "feyenoord": {
+    "rating": 1670.77,
+    "name": "Feyenoord"
+  },
+  "rosario central": {
+    "rating": 1495.41,
+    "name": "Rosario Central"
+  },
+  "argentinos jrs": {
+    "rating": 1471.51,
+    "name": "Argentinos JRS"
+  },
+  "estudiantes l p": {
+    "rating": 1532.54,
+    "name": "Estudiantes L.P."
+  },
+  "tigre": {
+    "rating": 1492.39,
+    "name": "Tigre"
+  },
+  "talleres cordoba": {
+    "rating": 1585.76,
+    "name": "Talleres Cordoba"
+  },
+  "independiente": {
+    "rating": 1521.21,
+    "name": "Independiente"
+  },
+  "defensa y justicia": {
+    "rating": 1513.12,
+    "name": "Defensa Y Justicia"
+  },
+  "huracan": {
+    "rating": 1517.67,
+    "name": "Huracan"
+  },
+  "san lorenzo": {
+    "rating": 1484.58,
+    "name": "San Lorenzo"
+  },
+  "arsenal sarandi": {
+    "rating": 1420.81,
+    "name": "Arsenal Sarandi"
+  },
+  "racing club": {
+    "rating": 1540.12,
+    "name": "Racing Club"
+  },
+  "belgrano cordoba": {
+    "rating": 1487.91,
+    "name": "Belgrano Cordoba"
+  },
+  "colon santa fe": {
+    "rating": 1452.43,
+    "name": "Colon Santa Fe"
+  },
+  "lanus": {
+    "rating": 1530.68,
+    "name": "Lanus"
+  },
+  "instituto cordoba": {
+    "rating": 1472.44,
+    "name": "Instituto Cordoba"
+  },
+  "sarmiento junin": {
+    "rating": 1443.92,
+    "name": "Sarmiento Junin"
+  },
+  "central cordoba de santiago": {
+    "rating": 1464.95,
+    "name": "Central Cordoba de Santiago"
+  },
+  "river plate": {
+    "rating": 1587.76,
+    "name": "River Plate"
+  },
+  "platense": {
+    "rating": 1513.67,
+    "name": "Platense"
+  },
+  "newells old boys": {
+    "rating": 1460.22,
+    "name": "Newells Old Boys"
+  },
+  "boca juniors": {
+    "rating": 1553.84,
+    "name": "Boca Juniors"
+  },
+  "atletico tucuman": {
+    "rating": 1519.13,
+    "name": "Atletico Tucuman"
+  },
+  "barracas central": {
+    "rating": 1455.52,
+    "name": "Barracas Central"
+  },
+  "godoy cruz": {
+    "rating": 1513.16,
+    "name": "Godoy Cruz"
+  },
+  "velez sarsfield": {
+    "rating": 1553.3,
+    "name": "Velez Sarsfield"
+  },
+  "gimnasia l p": {
+    "rating": 1463.12,
+    "name": "Gimnasia L.P."
+  },
+  "banfield": {
+    "rating": 1428.84,
+    "name": "Banfield"
+  },
+  "union santa fe": {
+    "rating": 1505.63,
+    "name": "Union Santa Fe"
+  },
+  "palmeiras": {
+    "rating": 1613.18,
+    "name": "Palmeiras"
+  },
+  "cuiaba": {
+    "rating": 1415.71,
+    "name": "Cuiaba"
+  },
+  "america mineiro": {
+    "rating": 1381.23,
+    "name": "America Mineiro"
+  },
+  "fluminense": {
+    "rating": 1507.52,
+    "name": "Fluminense"
+  },
+  "botafogo": {
+    "rating": 1637.46,
+    "name": "Botafogo"
+  },
+  "sao paulo": {
+    "rating": 1528.2,
+    "name": "Sao Paulo"
+  },
+  "atletico paranaense": {
+    "rating": 1453.45,
+    "name": "Atletico Paranaense"
+  },
+  "goias": {
+    "rating": 1437.03,
+    "name": "Goias"
+  },
+  "fortaleza ec": {
+    "rating": 1574.38,
+    "name": "Fortaleza EC"
+  },
+  "internacional": {
+    "rating": 1567.79,
+    "name": "SC Internacional"
+  },
+  "rb bragantino": {
+    "rating": 1492.15,
+    "name": "RB Bragantino"
+  },
+  "bahia": {
+    "rating": 1482.7,
+    "name": "Bahia"
+  },
+  "atletico mg": {
+    "rating": 1507.84,
+    "name": "Atletico-MG"
+  },
+  "vasco da gama": {
+    "rating": 1499.88,
+    "name": "Vasco DA Gama"
+  },
+  "flamengo": {
+    "rating": 1602.33,
+    "name": "Flamengo"
+  },
+  "coritiba": {
+    "rating": 1404.25,
+    "name": "Coritiba"
+  },
+  "corinthians": {
+    "rating": 1564.8,
+    "name": "Corinthians"
+  },
+  "cruzeiro": {
+    "rating": 1490.59,
+    "name": "Cruzeiro"
+  },
+  "gremio": {
+    "rating": 1508.41,
+    "name": "Gremio"
+  },
+  "santos": {
+    "rating": 1465.37,
+    "name": "Santos FC"
+  },
+  "hamburger sv": {
+    "rating": 1479.24,
+    "name": "Hamburger SV"
+  },
+  "estrela": {
+    "rating": 1413.03,
+    "name": "Estrela"
+  },
+  "urartu": {
+    "rating": 1472.7,
+    "name": "FC Urartu"
+  },
+  "struga": {
+    "rating": 1470.65,
+    "name": "Struga"
+  },
+  "hacken": {
+    "rating": 1499.77,
+    "name": "BK Hacken"
+  },
+  "farul constanta": {
+    "rating": 1539.16,
+    "name": "Farul Constanta"
+  },
+  "swift hesperange": {
+    "rating": 1501.02,
+    "name": "Swift Hesperange"
+  },
+  "trans narva": {
+    "rating": 1478.42,
+    "name": "Trans Narva"
+  },
+  "honka": {
+    "rating": 1490.52,
+    "name": "Honka"
+  },
+  "egnatia rrogozhine": {
+    "rating": 1493.01,
+    "name": "Egnatia Rrogozhinë"
+  },
+  "zilina": {
+    "rating": 1497.32,
+    "name": "Žilina"
+  },
+  "haka": {
+    "rating": 1489.59,
+    "name": "Haka"
+  },
+  "dundalk": {
+    "rating": 1500.91,
+    "name": "Dundalk"
+  },
+  "arsenal tivat": {
+    "rating": 1489.89,
+    "name": "Arsenal Tivat"
+  },
+  "nk domzale": {
+    "rating": 1488.57,
+    "name": "NK Domzale"
+  },
+  "balzan": {
+    "rating": 1501.77,
+    "name": "Balzan FC"
+  },
+  "torpedo kutaisi": {
+    "rating": 1486.25,
+    "name": "Torpedo Kutaisi"
+  },
+  "sarajevo": {
+    "rating": 1500.53,
+    "name": "FK Sarajevo"
+  },
+  "glentoran": {
+    "rating": 1501.37,
+    "name": "Glentoran"
+  },
+  "hegelmann litauen": {
+    "rating": 1488.19,
+    "name": "Hegelmann Litauen"
+  },
+  "dukagjini": {
+    "rating": 1497.27,
+    "name": "Dukagjini"
+  },
+  "progres niederkorn": {
+    "rating": 1503.72,
+    "name": "Progres Niederkorn"
+  },
+  "penybont": {
+    "rating": 1498.57,
+    "name": "Penybont"
+  },
+  "santa coloma": {
+    "rating": 1476.55,
+    "name": "FC Santa Coloma"
+  },
+  "ka akureyri": {
+    "rating": 1508.57,
+    "name": "KA Akureyri"
+  },
+  "gap connah s quay": {
+    "rating": 1480.91,
+    "name": "GAP Connah S Quay FC"
+  },
+  "haverfordwest county": {
+    "rating": 1483.72,
+    "name": "Haverfordwest County AFC"
+  },
+  "neman": {
+    "rating": 1488.18,
+    "name": "Neman"
+  },
+  "zeljeznicar sarajevo": {
+    "rating": 1499.6,
+    "name": "Zeljeznicar Sarajevo"
+  },
+  "cosmos": {
+    "rating": 1488.92,
+    "name": "Cosmos"
+  },
+  "zimbru": {
+    "rating": 1472.06,
+    "name": "Zimbru"
+  },
+  "birkirkara": {
+    "rating": 1488.41,
+    "name": "Birkirkara"
+  },
+  "warta poznan": {
+    "rating": 1462.88,
+    "name": "Warta Poznań"
+  },
+  "hvidovre": {
+    "rating": 1394.91,
+    "name": "Hvidovre"
+  },
+  "legia warszawa": {
+    "rating": 1574.23,
+    "name": "Legia Warszawa"
+  },
+  "łks łodz": {
+    "rating": 1410.11,
+    "name": "ŁKS Łódź"
+  },
+  "stal mielec": {
+    "rating": 1444.48,
+    "name": "Stal Mielec"
+  },
+  "cracovia krakow": {
+    "rating": 1515.43,
+    "name": "Cracovia Krakow"
+  },
+  "karvina": {
+    "rating": 1480.26,
+    "name": "Karviná"
+  },
+  "zlin": {
+    "rating": 1410.55,
+    "name": "Zlin"
+  },
+  "teplice": {
+    "rating": 1481.77,
+    "name": "Teplice"
+  },
+  "pardubice": {
+    "rating": 1391.22,
+    "name": "Pardubice"
+  },
+  "bohemians 1905": {
+    "rating": 1458.18,
+    "name": "Bohemians 1905"
+  },
+  "lyngby": {
+    "rating": 1424.11,
+    "name": "Lyngby"
+  },
+  "jagiellonia": {
+    "rating": 1584.58,
+    "name": "Jagiellonia"
+  },
+  "hradec kralove": {
+    "rating": 1522.33,
+    "name": "Hradec Králové"
+  },
+  "rudes": {
+    "rating": 1327.5,
+    "name": "Rudes"
+  },
+  "piast gliwice": {
+    "rating": 1511.34,
+    "name": "Piast Gliwice"
+  },
+  "nk slaven belupo": {
+    "rating": 1485.7,
+    "name": "NK Slaven Belupo"
+  },
+  "aarhus": {
+    "rating": 1488.85,
+    "name": "Aarhus"
+  },
+  "vejle": {
+    "rating": 1439.79,
+    "name": "Vejle"
+  },
+  "gornik zabrze": {
+    "rating": 1517.34,
+    "name": "Gornik Zabrze"
+  },
+  "radomiak radom": {
+    "rating": 1474.95,
+    "name": "Radomiak Radom"
+  },
+  "mlada boleslav": {
+    "rating": 1459.07,
+    "name": "Mlada Boleslav"
+  },
+  "jablonec": {
+    "rating": 1582.62,
+    "name": "FK Jablonec"
+  },
+  "slovan liberec": {
+    "rating": 1511.15,
+    "name": "Slovan Liberec"
+  },
+  "banik ostrava": {
+    "rating": 1618.06,
+    "name": "Baník Ostrava"
+  },
+  "ceske budejovice": {
+    "rating": 1285.42,
+    "name": "České Budějovice"
+  },
+  "odense": {
+    "rating": 1438.12,
+    "name": "Odense"
+  },
+  "randers": {
+    "rating": 1522.17,
+    "name": "Randers FC"
+  },
+  "zaglebie lubin": {
+    "rating": 1460.2,
+    "name": "Zaglebie Lubin"
+  },
+  "ruch chorzow": {
+    "rating": 1468.37,
+    "name": "Ruch Chorzów"
+  },
+  "sigma olomouc": {
+    "rating": 1478.75,
+    "name": "Sigma Olomouc"
+  },
+  "hnk gorica": {
+    "rating": 1450.34,
+    "name": "HNK Gorica"
+  },
+  "nk varazdin": {
+    "rating": 1515.15,
+    "name": "NK Varazdin"
+  },
+  "widzew łodz": {
+    "rating": 1467.25,
+    "name": "Widzew Łódź"
+  },
+  "puszcza niepołomice": {
+    "rating": 1426.69,
+    "name": "Puszcza Niepołomice"
+  },
+  "nk lokomotiva zagreb": {
+    "rating": 1480.78,
+    "name": "NK Lokomotiva Zagreb"
+  },
+  "istra 1961": {
+    "rating": 1522.89,
+    "name": "Istra 1961"
+  },
+  "korona kielce": {
+    "rating": 1517.84,
+    "name": "Korona Kielce"
+  },
+  "slask wroclaw": {
+    "rating": 1480.09,
+    "name": "Slask Wroclaw"
+  },
+  "nordsjaelland": {
+    "rating": 1559.05,
+    "name": "FC Nordsjaelland"
+  },
+  "galatasaray": {
+    "rating": 1750.47,
+    "name": "Galatasaray"
+  },
+  "servette": {
+    "rating": 1495.31,
+    "name": "Servette FC"
+  },
+  "genk": {
+    "rating": 1633.81,
+    "name": "Genk"
+  },
+  "sabah fa": {
+    "rating": 1515.67,
+    "name": "Sabah FA"
+  },
+  "cska 1948": {
+    "rating": 1496.59,
+    "name": "CSKA 1948"
+  },
+  "debreceni vsc": {
+    "rating": 1470.13,
+    "name": "Debreceni VSC"
+  },
+  "ordabasy": {
+    "rating": 1452.58,
+    "name": "Ordabasy"
+  },
+  "hibernian": {
+    "rating": 1494.04,
+    "name": "Hibernian"
+  },
+  "luzern": {
+    "rating": 1502.27,
+    "name": "FC Luzern"
+  },
+  "kalmar ff": {
+    "rating": 1479.77,
+    "name": "Kalmar FF"
+  },
+  "aktobe": {
+    "rating": 1478.7,
+    "name": "Aktobe"
+  },
+  "vojvodina": {
+    "rating": 1525.56,
+    "name": "Vojvodina"
+  },
+  "auda": {
+    "rating": 1534.86,
+    "name": "Auda"
+  },
+  "kecskemeti te": {
+    "rating": 1438.14,
+    "name": "Kecskeméti TE"
+  },
+  "beitar jerusalem": {
+    "rating": 1489.4,
+    "name": "Beitar Jerusalem"
+  },
+  "adana demirspor": {
+    "rating": 1338.7,
+    "name": "Adana Demirspor"
+  },
+  "torpedo zhodino": {
+    "rating": 1481.08,
+    "name": "Torpedo Zhodino"
+  },
+  "hammarby ff": {
+    "rating": 1491.72,
+    "name": "Hammarby FF"
+  },
+  "besiktas": {
+    "rating": 1565.33,
+    "name": "Beşiktaş"
+  },
+  "zalaegerszegi te": {
+    "rating": 1475.88,
+    "name": "Zalaegerszegi TE"
+  },
+  "celje": {
+    "rating": 1527.75,
+    "name": "Celje"
+  },
+  "rosenborg": {
+    "rating": 1499.09,
+    "name": "Rosenborg"
+  },
+  "mtk budapest": {
+    "rating": 1493.82,
+    "name": "MTK Budapest"
+  },
+  "paks": {
+    "rating": 1578.19,
+    "name": "Paks"
+  },
+  "lask linz": {
+    "rating": 1539.08,
+    "name": "Lask Linz"
+  },
+  "as eupen": {
+    "rating": 1388.1,
+    "name": "AS Eupen"
+  },
+  "kvc westerlo": {
+    "rating": 1490.22,
+    "name": "KVC Westerlo"
+  },
+  "bw linz": {
+    "rating": 1451.41,
+    "name": "FC BW Linz"
+  },
+  "tsv hartberg": {
+    "rating": 1490.26,
+    "name": "TSV Hartberg"
+  },
+  "austria lustenau": {
+    "rating": 1408.91,
+    "name": "Austria Lustenau"
+  },
+  "wsg wattens": {
+    "rating": 1395.75,
+    "name": "WSG Wattens"
+  },
+  "austria klagenfurt": {
+    "rating": 1393.66,
+    "name": "Austria Klagenfurt"
+  },
+  "diosgyori vtk": {
+    "rating": 1502.44,
+    "name": "Diosgyori VTK"
+  },
+  "charleroi": {
+    "rating": 1546.9,
+    "name": "Charleroi"
+  },
+  "oh leuven": {
+    "rating": 1466.96,
+    "name": "OH Leuven"
+  },
+  "spartak zdrepceva krv": {
+    "rating": 1458.21,
+    "name": "FK Spartak Zdrepceva KRV"
+  },
+  "imt novi beograd": {
+    "rating": 1478.01,
+    "name": "IMT Novi Beograd"
+  },
+  "scr altach": {
+    "rating": 1396.6,
+    "name": "SCR Altach"
+  },
+  "ujpest": {
+    "rating": 1479.87,
+    "name": "Ujpest"
+  },
+  "rwdm": {
+    "rating": 1402.14,
+    "name": "RWDM"
+  },
+  "tsc backa topola": {
+    "rating": 1504.41,
+    "name": "TSC Backa Topola"
+  },
+  "vozdovac": {
+    "rating": 1424.6,
+    "name": "FK Vozdovac"
+  },
+  "javor": {
+    "rating": 1429.95,
+    "name": "Javor"
+  },
+  "cercle brugge": {
+    "rating": 1519.97,
+    "name": "Cercle Brugge"
+  },
+  "kortrijk": {
+    "rating": 1445.03,
+    "name": "Kortrijk"
+  },
+  "kv mechelen": {
+    "rating": 1507.96,
+    "name": "KV Mechelen"
+  },
+  "novi pazar": {
+    "rating": 1523.51,
+    "name": "Novi Pazar"
+  },
+  "radnicki 1923": {
+    "rating": 1525.83,
+    "name": "Radnicki 1923"
+  },
+  "napredak": {
+    "rating": 1447.42,
+    "name": "Napredak"
+  },
+  "zeleznicar pancevo": {
+    "rating": 1482.1,
+    "name": "Železničar Pančevo"
+  },
+  "st truiden": {
+    "rating": 1484.95,
+    "name": "St. Truiden"
+  },
+  "standard liege": {
+    "rating": 1460.44,
+    "name": "Standard Liege"
+  },
+  "mladost lucani": {
+    "rating": 1459.48,
+    "name": "Mladost Lucani"
+  },
+  "radnik surdulica": {
+    "rating": 1337.55,
+    "name": "Radnik Surdulica"
+  },
+  "mezokovesd zsory": {
+    "rating": 1385.15,
+    "name": "Mezokovesd-zsory"
+  },
+  "sheffield wednesday": {
+    "rating": 1445.53,
+    "name": "Sheffield Wednesday FC"
+  },
+  "watford": {
+    "rating": 1422.91,
+    "name": "Watford"
+  },
+  "qpr": {
+    "rating": 1463.37,
+    "name": "QPR"
+  },
+  "bristol city": {
+    "rating": 1483.36,
+    "name": "Bristol City FC"
+  },
+  "preston": {
+    "rating": 1431.49,
+    "name": "Preston"
+  },
+  "blackburn": {
+    "rating": 1467.59,
+    "name": "Blackburn"
+  },
+  "west brom": {
+    "rating": 1489.91,
+    "name": "West Brom"
+  },
+  "middlesbrough": {
+    "rating": 1464.34,
+    "name": "Middlesbrough FC"
+  },
+  "millwall": {
+    "rating": 1515.83,
+    "name": "Millwall FC"
+  },
+  "norwich": {
+    "rating": 1461.83,
+    "name": "Norwich"
+  },
+  "hull city": {
+    "rating": 1433.95,
+    "name": "Hull City AFC"
+  },
+  "stoke city": {
+    "rating": 1436.82,
+    "name": "Stoke City FC"
+  },
+  "rotherham": {
+    "rating": 1352.31,
+    "name": "Rotherham"
+  },
+  "swansea": {
+    "rating": 1476.39,
+    "name": "Swansea"
+  },
+  "birmingham": {
+    "rating": 1436.66,
+    "name": "Birmingham"
+  },
+  "plymouth": {
+    "rating": 1420.89,
+    "name": "Plymouth"
+  },
+  "huddersfield": {
+    "rating": 1428.1,
+    "name": "Huddersfield"
+  },
+  "coventry": {
+    "rating": 1498.25,
+    "name": "Coventry"
+  },
+  "cardiff": {
+    "rating": 1406.44,
+    "name": "Cardiff"
+  },
+  "sunderland": {
+    "rating": 1511.08,
+    "name": "Sunderland"
+  },
+  "ipswich": {
+    "rating": 1450.21,
+    "name": "Ipswich"
+  },
+  "brann": {
+    "rating": 1524.2,
+    "name": "Brann"
+  },
+  "volendam": {
+    "rating": 1376.41,
+    "name": "FC Volendam"
+  },
+  "vitesse": {
+    "rating": 1403.59,
+    "name": "Vitesse"
+  },
+  "antalyaspor": {
+    "rating": 1482.12,
+    "name": "Antalyaspor"
+  },
+  "burnley": {
+    "rating": 1624.02,
+    "name": "Burnley"
+  },
+  "luton": {
+    "rating": 1417.92,
+    "name": "Luton"
+  },
+  "sheffield utd": {
+    "rating": 1538.6,
+    "name": "Sheffield Utd"
+  },
+  "utrecht": {
+    "rating": 1601.06,
+    "name": "FC Utrecht"
+  },
+  "istanbulspor": {
+    "rating": 1357.26,
+    "name": "İstanbulspor"
+  },
+  "kasımpasa": {
+    "rating": 1520.42,
+    "name": "Kasımpaşa"
+  },
+  "ankaragucu": {
+    "rating": 1462.2,
+    "name": "Ankaragücü"
+  },
+  "heerenveen": {
+    "rating": 1486.81,
+    "name": "SC Heerenveen"
+  },
+  "waalwijk": {
+    "rating": 1400.32,
+    "name": "Waalwijk"
+  },
+  "farense": {
+    "rating": 1421.47,
+    "name": "Farense"
+  },
+  "las palmas": {
+    "rating": 1403.37,
+    "name": "Las Palmas"
+  },
+  "heracles": {
+    "rating": 1457.99,
+    "name": "Heracles"
+  },
+  "kayserispor": {
+    "rating": 1501.73,
+    "name": "Kayserispor"
+  },
+  "pendikspor": {
+    "rating": 1445.66,
+    "name": "Pendikspor"
+  },
+  "hatayspor": {
+    "rating": 1403.31,
+    "name": "Hatayspor"
+  },
+  "pec zwolle": {
+    "rating": 1488.39,
+    "name": "PEC Zwolle"
+  },
+  "sparta rotterdam": {
+    "rating": 1500.25,
+    "name": "Sparta Rotterdam"
+  },
+  "nec nijmegen": {
+    "rating": 1517.97,
+    "name": "NEC Nijmegen"
+  },
+  "excelsior": {
+    "rating": 1452.13,
+    "name": "Excelsior"
+  },
+  "go ahead eagles": {
+    "rating": 1531.0,
+    "name": "GO Ahead Eagles"
+  },
+  "fortuna sittard": {
+    "rating": 1472.19,
+    "name": "Fortuna Sittard"
+  },
+  "le havre": {
+    "rating": 1447.03,
+    "name": "Le Havre"
+  },
+  "almere city": {
+    "rating": 1398.14,
+    "name": "Almere City FC"
+  },
+  "metz": {
+    "rating": 1420.84,
+    "name": "Metz"
+  },
+  "samsunspor": {
+    "rating": 1554.02,
+    "name": "Samsunspor"
+  },
+  "gaziantep": {
+    "rating": 1478.97,
+    "name": "Gaziantep FK"
+  },
+  "rizespor": {
+    "rating": 1501.83,
+    "name": "Rizespor"
+  },
+  "alaves": {
+    "rating": 1493.75,
+    "name": "Alaves"
+  },
+  "moreirense": {
+    "rating": 1498.03,
+    "name": "Moreirense FC"
+  },
+  "alanyaspor": {
+    "rating": 1511.87,
+    "name": "Alanyaspor"
+  },
+  "fatih karagumruk": {
+    "rating": 1461.12,
+    "name": "Fatih Karagümrük"
+  },
+  "granada": {
+    "rating": 1377.55,
+    "name": "Granada CF"
+  },
+  "aek athens": {
+    "rating": 1591.78,
+    "name": "AEK Athens FC"
+  },
+  "volos nfc": {
+    "rating": 1429.65,
+    "name": "Volos NFC"
+  },
+  "lamia": {
+    "rating": 1340.05,
+    "name": "Lamia"
+  },
+  "heidenheim": {
+    "rating": 1506.53,
+    "name": "FC Heidenheim"
+  },
+  "frosinone": {
+    "rating": 1445.75,
+    "name": "Frosinone"
+  },
+  "genoa": {
+    "rating": 1514.33,
+    "name": "Genoa"
+  },
+  "sv darmstadt 98": {
+    "rating": 1373.41,
+    "name": "SV Darmstadt 98"
+  },
+  "ofi": {
+    "rating": 1456.79,
+    "name": "OFI"
+  },
+  "asteras tripolis": {
+    "rating": 1475.0,
+    "name": "Asteras Tripolis"
+  },
+  "pas giannina": {
+    "rating": 1404.43,
+    "name": "PAS Giannina"
+  },
+  "kifisia": {
+    "rating": 1422.35,
+    "name": "Kifisia"
+  },
+  "panserraikos": {
+    "rating": 1421.97,
+    "name": "Panserraikos"
+  },
+  "cagliari": {
+    "rating": 1452.94,
+    "name": "Cagliari"
+  },
+  "aberdeen": {
+    "rating": 1488.68,
+    "name": "Aberdeen"
+  },
+  "panetolikos": {
+    "rating": 1477.16,
+    "name": "Panetolikos"
+  },
+  "atromitos": {
+    "rating": 1484.17,
+    "name": "Atromitos"
+  },
+  "criciuma": {
+    "rating": 1442.27,
+    "name": "Criciuma"
+  },
+  "juventude": {
+    "rating": 1483.6,
+    "name": "Juventude"
+  },
+  "atletico goianiense": {
+    "rating": 1421.01,
+    "name": "Atletico Goianiense"
+  },
+  "vitoria": {
+    "rating": 1510.51,
+    "name": "Vitoria"
+  },
+  "deportivo riestra": {
+    "rating": 1502.73,
+    "name": "Deportivo Riestra"
+  },
+  "independ rivadavia": {
+    "rating": 1515.64,
+    "name": "Independ. Rivadavia"
+  },
+  "nac breda": {
+    "rating": 1450.6,
+    "name": "NAC Breda"
+  },
+  "roda": {
+    "rating": 1480.49,
+    "name": "Roda"
+  },
+  "emmen": {
+    "rating": 1500.52,
+    "name": "Emmen"
+  },
+  "dordrecht": {
+    "rating": 1505.85,
+    "name": "Dordrecht"
+  },
+  "de graafschap": {
+    "rating": 1480.68,
+    "name": "De Graafschap"
+  },
+  "ado den haag": {
+    "rating": 1466.68,
+    "name": "ADO Den Haag"
+  },
+  "lommel united": {
+    "rating": 1486.62,
+    "name": "Lommel United"
+  },
+  "fortuna dusseldorf": {
+    "rating": 1509.6,
+    "name": "Fortuna Dusseldorf"
+  },
+  "avs": {
+    "rating": 1445.26,
+    "name": "AVS"
+  },
+  "tekstilac odzaci": {
+    "rating": 1424.39,
+    "name": "Tekstilac Odžaci"
+  },
+  "taborsko": {
+    "rating": 1486.11,
+    "name": "Táborsko"
+  },
+  "vyskov": {
+    "rating": 1475.28,
+    "name": "Vyškov"
+  },
+  "indjija": {
+    "rating": 1478.13,
+    "name": "Indjija"
+  },
+  "saint etienne": {
+    "rating": 1447.99,
+    "name": "Saint Etienne"
+  },
+  "virtus": {
+    "rating": 1478.2,
+    "name": "Virtus"
+  },
+  "siauliai": {
+    "rating": 1488.51,
+    "name": "Šiauliai"
+  },
+  "malisheva": {
+    "rating": 1498.91,
+    "name": "Malisheva"
+  },
+  "noah": {
+    "rating": 1505.6,
+    "name": "FC Noah"
+  },
+  "bravo": {
+    "rating": 1498.83,
+    "name": "Bravo"
+  },
+  "tallinna kalev": {
+    "rating": 1479.06,
+    "name": "Tallinna Kalev"
+  },
+  "pafos": {
+    "rating": 1501.71,
+    "name": "Pafos"
+  },
+  "corvinul hunedoara": {
+    "rating": 1476.15,
+    "name": "Corvinul Hunedoara"
+  },
+  "vps": {
+    "rating": 1477.93,
+    "name": "VPS"
+  },
+  "una strassen": {
+    "rating": 1489.55,
+    "name": "UNA Strassen"
+  },
+  "caernarfon town": {
+    "rating": 1492.84,
+    "name": "Caernarfon Town"
+  },
+  "marsaxlokk": {
+    "rating": 1491.15,
+    "name": "Marsaxlokk"
+  },
+  "wisla krakow": {
+    "rating": 1493.71,
+    "name": "Wisla Krakow"
+  },
+  "tikves": {
+    "rating": 1498.55,
+    "name": "Tikveš"
+  },
+  "isloch minsk r": {
+    "rating": 1510.33,
+    "name": "FC Isloch Minsk R."
+  },
+  "mornar": {
+    "rating": 1492.99,
+    "name": "Mornar"
+  },
+  "shelbourne": {
+    "rating": 1498.56,
+    "name": "Shelbourne"
+  },
+  "valur reykjavik": {
+    "rating": 1499.08,
+    "name": "Valur Reykjavik"
+  },
+  "stjarnan": {
+    "rating": 1496.48,
+    "name": "Stjarnan"
+  },
+  "aalborg": {
+    "rating": 1399.3,
+    "name": "Aalborg"
+  },
+  "gks katowice": {
+    "rating": 1525.82,
+    "name": "GKS Katowice"
+  },
+  "dukla praha": {
+    "rating": 1456.29,
+    "name": "Dukla Praha"
+  },
+  "jedinstvo ub": {
+    "rating": 1387.97,
+    "name": "Jedinstvo Ub"
+  },
+  "ofk beograd": {
+    "rating": 1497.24,
+    "name": "OFK Beograd"
+  },
+  "sonderjyske": {
+    "rating": 1479.94,
+    "name": "Sonderjyske"
+  },
+  "motor lublin": {
+    "rating": 1517.22,
+    "name": "Motor Lublin"
+  },
+  "tromso": {
+    "rating": 1507.83,
+    "name": "Tromso"
+  },
+  "transinvest vilnius": {
+    "rating": 1480.43,
+    "name": "TransINVEST Vilnius"
+  },
+  "ilves": {
+    "rating": 1501.11,
+    "name": "Ilves"
+  },
+  "sliema wanderers": {
+    "rating": 1491.67,
+    "name": "Sliema Wanderers"
+  },
+  "sumqayıt": {
+    "rating": 1492.97,
+    "name": "Sumqayıt"
+  },
+  "cherno more varna": {
+    "rating": 1491.71,
+    "name": "Cherno More Varna"
+  },
+  "polessya": {
+    "rating": 1479.52,
+    "name": "Polessya"
+  },
+  "st gallen": {
+    "rating": 1503.88,
+    "name": "FC ST. Gallen"
+  },
+  "kilmarnock": {
+    "rating": 1499.62,
+    "name": "Kilmarnock"
+  },
+  "st mirren": {
+    "rating": 1500.86,
+    "name": "ST Mirren"
+  },
+  "maccabi petah tikva": {
+    "rating": 1469.51,
+    "name": "Maccabi Petah Tikva"
+  },
+  "nyiregyhaza": {
+    "rating": 1475.39,
+    "name": "Nyiregyhaza"
+  },
+  "gyori eto": {
+    "rating": 1569.42,
+    "name": "Gyori ETO FC"
+  },
+  "dender": {
+    "rating": 1471.52,
+    "name": "Dender"
+  },
+  "beerschot va": {
+    "rating": 1411.59,
+    "name": "Beerschot VA"
+  },
+  "grazer ak": {
+    "rating": 1434.65,
+    "name": "Grazer AK"
+  },
+  "sibenik": {
+    "rating": 1424.71,
+    "name": "Sibenik"
+  },
+  "kryvbas kr": {
+    "rating": 1471.75,
+    "name": "Kryvbas KR"
+  },
+  "groningen": {
+    "rating": 1497.62,
+    "name": "FC Groningen"
+  },
+  "derby": {
+    "rating": 1442.38,
+    "name": "Derby"
+  },
+  "portsmouth": {
+    "rating": 1461.86,
+    "name": "Portsmouth FC"
+  },
+  "oxford united": {
+    "rating": 1477.47,
+    "name": "Oxford United FC"
+  },
+  "nacional": {
+    "rating": 1454.71,
+    "name": "Nacional"
+  },
+  "willem ii": {
+    "rating": 1392.09,
+    "name": "Willem II"
+  },
+  "goztepe": {
+    "rating": 1509.09,
+    "name": "Göztepe"
+  },
+  "eyupspor": {
+    "rating": 1509.38,
+    "name": "Eyüpspor"
+  },
+  "bodrum": {
+    "rating": 1469.27,
+    "name": "Bodrum FK"
+  },
+  "parma": {
+    "rating": 1485.33,
+    "name": "Parma"
+  },
+  "leganes": {
+    "rating": 1480.38,
+    "name": "Leganes"
+  },
+  "levadiakos": {
+    "rating": 1513.68,
+    "name": "Levadiakos"
+  },
+  "kallithea": {
+    "rating": 1452.55,
+    "name": "Kallithea"
+  },
+  "venezia": {
+    "rating": 1449.05,
+    "name": "Venezia"
+  },
+  "como": {
+    "rating": 1535.07,
+    "name": "Como"
+  },
+  "1 heidenheim": {
+    "rating": 1474.2,
+    "name": "1. FC Heidenheim"
+  },
+  "holstein kiel": {
+    "rating": 1428.71,
+    "name": "Holstein Kiel"
+  },
+  "bayern munchen": {
+    "rating": 1700.74,
+    "name": "FC Bayern München"
+  },
+  "st pauli": {
+    "rating": 1454.92,
+    "name": "FC St. Pauli"
+  },
+  "den bosch": {
+    "rating": 1507.43,
+    "name": "Den Bosch"
+  },
+  "cambuur": {
+    "rating": 1491.43,
+    "name": "Cambuur"
+  },
+  "telstar": {
+    "rating": 1523.37,
+    "name": "Telstar"
+  },
+  "patro eisden": {
+    "rating": 1480.67,
+    "name": "Patro Eisden"
+  },
+  "sv elversberg": {
+    "rating": 1487.85,
+    "name": "SV Elversberg"
+  },
+  "mladost novi sad": {
+    "rating": 1486.5,
+    "name": "Mladost Novi Sad"
+  },
+  "chrudim": {
+    "rating": 1494.32,
+    "name": "Chrudim"
+  },
+  "macva": {
+    "rating": 1486.65,
+    "name": "Macva"
+  },
+  "rayo vallecano de madrid": {
+    "rating": 1508.57,
+    "name": "Rayo Vallecano de Madrid"
+  },
+  "real oviedo": {
+    "rating": 1491.43,
+    "name": "Real Oviedo"
+  },
+  "brighton hove albion": {
+    "rating": 1495.05,
+    "name": "Brighton & Hove Albion FC"
+  },
+  "bayer 04 leverkusen": {
+    "rating": 1518.29,
+    "name": "Bayer 04 Leverkusen"
+  },
+  "west ham united": {
+    "rating": 1512.8,
+    "name": "West Ham United FC"
+  },
+  "heracles almelo": {
+    "rating": 1501.5,
+    "name": "Heracles Almelo"
+  },
+  "as monaco": {
+    "rating": 1517.27,
+    "name": "AS Monaco FC"
+  },
+  "ssc napoli": {
+    "rating": 1509.0,
+    "name": "SSC Napoli"
+  },
+  "celta de vigo": {
+    "rating": 1495.34,
+    "name": "RC Celta de Vigo"
+  },
+  "preston north end": {
+    "rating": 1479.44,
+    "name": "Preston North End FC"
+  },
+  "blackburn rovers": {
+    "rating": 1488.04,
+    "name": "Blackburn Rovers FC"
+  },
+  "ca osasuna": {
+    "rating": 1498.57,
+    "name": "CA Osasuna"
+  },
+  "rcd mallorca": {
+    "rating": 1501.43,
+    "name": "RCD Mallorca"
+  },
+  "cagliari calcio": {
+    "rating": 1488.57,
+    "name": "Cagliari Calcio"
+  },
+  "como 1907": {
+    "rating": 1511.43,
+    "name": "Como 1907"
+  },
+  "1 heidenheim 1846": {
+    "rating": 1488.57,
+    "name": "1. FC Heidenheim 1846"
+  },
+  "tsg 1899 hoffenheim": {
+    "rating": 1511.43,
+    "name": "TSG 1899 Hoffenheim"
+  },
+  "1 fsv mainz 05": {
+    "rating": 1500.56,
+    "name": "1. FSV Mainz 05"
+  },
+  "charlton athletic": {
+    "rating": 1519.04,
+    "name": "Charlton Athletic FC"
+  },
+  "birmingham city": {
+    "rating": 1500.24,
+    "name": "Birmingham City FC"
+  },
+  "sheffield united": {
+    "rating": 1490.04,
+    "name": "Sheffield United FC"
+  },
+  "west bromwich albion": {
+    "rating": 1497.12,
+    "name": "West Bromwich Albion FC"
+  },
+  "coventry city": {
+    "rating": 1519.18,
+    "name": "Coventry City FC"
+  },
+  "derby county": {
+    "rating": 1507.27,
+    "name": "Derby County FC"
+  },
+  "swansea city": {
+    "rating": 1507.04,
+    "name": "Swansea City AFC"
+  },
+  "ipswich town": {
+    "rating": 1498.57,
+    "name": "Ipswich Town FC"
+  },
+  "leicester city": {
+    "rating": 1501.43,
+    "name": "Leicester City FC"
+  },
+  "levante": {
+    "rating": 1497.8,
+    "name": "Levante UD"
+  },
+  "alverca": {
+    "rating": 1496.99,
+    "name": "FC Alverca"
+  },
+  "cd nacional": {
+    "rating": 1501.41,
+    "name": "CD Nacional"
+  },
+  "angers sco": {
+    "rating": 1510.12,
+    "name": "Angers SCO"
+  },
+  "atalanta bc": {
+    "rating": 1498.57,
+    "name": "Atalanta BC"
+  },
+  "udinese calcio": {
+    "rating": 1501.43,
+    "name": "Udinese Calcio"
+  },
+  "club atletico de madrid": {
+    "rating": 1508.57,
+    "name": "Club Atlético de Madrid"
+  },
+  "real sociedad de futbol": {
+    "rating": 1491.43,
+    "name": "Real Sociedad de Fútbol"
+  },
+  "aj auxerre": {
+    "rating": 1498.57,
+    "name": "AJ Auxerre"
+  },
+  "strasbourg alsace": {
+    "rating": 1501.43,
+    "name": "RC Strasbourg Alsace"
+  },
+  "sporting clube de braga": {
+    "rating": 1498.57,
+    "name": "Sporting Clube de Braga"
+  },
+  "sporting clube de portugal": {
+    "rating": 1492.82,
+    "name": "Sporting Clube de Portugal"
+  },
+  "psv": {
+    "rating": 1508.57,
+    "name": "PSV"
+  },
+  "az": {
+    "rating": 1491.43,
+    "name": "AZ"
+  },
+  "ac pisa 1909": {
+    "rating": 1495.71,
+    "name": "AC Pisa 1909"
+  },
+  "sbv excelsior": {
+    "rating": 1487.87,
+    "name": "SBV Excelsior"
+  },
+  "olympique de marseille": {
+    "rating": 1511.71,
+    "name": "Olympique de Marseille"
+  },
+  "gd estoril praia": {
+    "rating": 1498.57,
+    "name": "GD Estoril Praia"
+  },
+  "casa pia ac": {
+    "rating": 1501.43,
+    "name": "Casa Pia AC"
+  },
+  "mirassol": {
+    "rating": 1497.54,
+    "name": "Mirassol FC"
+  },
+  "queens park rangers": {
+    "rating": 1491.19,
+    "name": "Queens Park Rangers FC"
+  },
+  "norwich city": {
+    "rating": 1508.53,
+    "name": "Norwich City FC"
+  },
+  "bodø glimt": {
+    "rating": 1508.61,
+    "name": "FK Bodø/Glimt"
+  },
+  "ca mineiro": {
+    "rating": 1510.82,
+    "name": "CA Mineiro"
+  },
+  "ec bahia": {
+    "rating": 1498.57,
+    "name": "EC Bahia"
+  },
+  "ec vitoria": {
+    "rating": 1501.43,
+    "name": "EC Vitória"
+  },
+  "cr flamengo": {
+    "rating": 1508.57,
+    "name": "CR Flamengo"
+  },
+  "cruzeiro ec": {
+    "rating": 1491.43,
+    "name": "Cruzeiro EC"
+  },
+  "corinthians paulista": {
+    "rating": 1488.57,
+    "name": "SC Corinthians Paulista"
+  },
+  "coritiba fbc": {
+    "rating": 1511.43,
+    "name": "Coritiba FBC"
+  }
+}
