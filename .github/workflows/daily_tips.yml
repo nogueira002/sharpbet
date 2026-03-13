@@ -23,7 +23,16 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements.txt
 
-      - name: Correr SharpBet
+      - name: Atualizar resultados de ontem
+        env:
+          PYTHONIOENCODING: utf-8
+          FOOTBALLDATA_KEY: ${{ secrets.FOOTBALLDATA_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m scripts.update_results
+
+      - name: Gerar tips de hoje e enviar Telegram
         env:
           PYTHONIOENCODING: utf-8
           FOOTBALLDATA_KEY: ${{ secrets.FOOTBALLDATA_KEY }}

@@ -1,0 +1,47 @@
+name: SharpBet — Retreino Semanal
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"   # todos os Domingos às 03:00 UTC (madrugada)
+  workflow_dispatch:        # permite correr manualmente
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Reconstruir features (43 features + Elo)
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m models.rebuild_features
+
+      - name: Retreinar modelo 1X2
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m models.train
+
+      - name: Retreinar modelos BTTS + Over/Under
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m models.train_markets
+
+      - name: Guardar modelos atualizados no repositório
+        run: |
+          git config user.name "SharpBet Bot"
+          git config user.email "bot@sharpbet.local"
+          git add models/saved/xgboost_model.pkl models/saved/btts_model.pkl models/saved/ou_model.pkl models/saved/training_data.csv models/saved/elo_ratings.json || true
+          git diff --staged --quiet || git commit -m "chore: retreino semanal dos modelos [skip ci]"
+          git push || true
