@@ -10,22 +10,25 @@ import os
 import requests
 
 
-def send_message(text):
-    token   = os.getenv("TELEGRAM_TOKEN")
-    chat_id = os.getenv("TELEGRAM_CHAT_ID")
-
+def _send(chat_id, text):
+    token = os.getenv("TELEGRAM_TOKEN")
     if not token or not chat_id:
-        print("  [!] TELEGRAM_TOKEN ou TELEGRAM_CHAT_ID não definidos — a ignorar envio.")
+        print("  [!] TELEGRAM_TOKEN ou chat_id não definidos — a ignorar envio.")
         return False
-
     url  = f"https://api.telegram.org/bot{token}/sendMessage"
-    data = {
-        "chat_id":    chat_id,
-        "text":       text,
-        "parse_mode": "HTML",
-    }
+    data = {"chat_id": chat_id, "text": text, "parse_mode": "HTML"}
     r = requests.post(url, data=data, timeout=10)
     return r.ok
+
+
+def send_message(text):
+    """Envia para o canal principal de tips."""
+    return _send(os.getenv("TELEGRAM_CHAT_ID"), text)
+
+
+def send_dev_message(text):
+    """Envia para o canal dev (treinos, logs técnicos)."""
+    return _send(os.getenv("TELEGRAM_DEV_CHAT_ID"), text)
 
 
 def format_tips_message(tips, target_date):

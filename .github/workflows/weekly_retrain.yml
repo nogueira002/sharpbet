@@ -23,20 +23,13 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements.txt
 
-      - name: Reconstruir features (43 features + Elo)
+      - name: Retreinar modelos + notificar Telegram
         env:
           PYTHONIOENCODING: utf-8
-        run: python -m models.rebuild_features
-
-      - name: Retreinar modelo 1X2
-        env:
-          PYTHONIOENCODING: utf-8
-        run: python -m models.train
-
-      - name: Retreinar modelos BTTS + Over/Under
-        env:
-          PYTHONIOENCODING: utf-8
-        run: python -m models.train_markets
+          FOOTBALLDATA_KEY: ${{ secrets.FOOTBALLDATA_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_DEV_CHAT_ID: ${{ secrets.TELEGRAM_DEV_CHAT_ID }}
+        run: python -m scripts.weekly_retrain
 
       - name: Guardar modelos atualizados no repositório
         run: |

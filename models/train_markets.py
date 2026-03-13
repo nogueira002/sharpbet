@@ -236,6 +236,10 @@ def train():
     print(f"  {BTTS_PATH}")
     print(f"  {OU_PATH}")
 
+    btts_acc = round((btts_base.predict(X_te) == y_btts[te_idx]).mean() * 100, 1)
+    ou_acc   = round((ou_base.predict(X_te)   == y_ou[te_idx]).mean()   * 100, 1)
+    return btts_acc, ou_acc
+
 
 if __name__ == "__main__":
     train()

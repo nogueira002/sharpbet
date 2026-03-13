@@ -109,6 +109,8 @@ def train():
     joblib.dump(calibrated_model, MODEL_PATH)
     print(f"\nModelo calibrado guardado em: {MODEL_PATH}")
 
+    return round(acc * 100, 1)
+
 
 if __name__ == "__main__":
     train()
