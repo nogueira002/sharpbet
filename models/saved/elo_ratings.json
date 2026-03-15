@@ -672,8 +672,8 @@
     "name": "Apollon Limassol"
   },
   "gil vicente": {
-    "rating": 1438.1,
-    "name": "GIL Vicente"
+    "rating": 1438.36,
+    "name": "Gil Vicente FC"
   },
   "wolfsberger ac": {
     "rating": 1565.18,
@@ -728,7 +728,7 @@
     "name": "Dundee Utd"
   },
   "eintracht frankfurt": {
-    "rating": 1606.59,
+    "rating": 1602.1,
     "name": "Eintracht Frankfurt"
   },
   "bayern munich": {
@@ -740,7 +740,7 @@
     "name": "Crystal Palace"
   },
   "arsenal": {
-    "rating": 1743.06,
+    "rating": 1747.18,
     "name": "Arsenal FC"
   },
   "lyon": {
@@ -764,7 +764,7 @@
     "name": "Liverpool"
   },
   "vfl wolfsburg": {
-    "rating": 1471.72,
+    "rating": 1474.25,
     "name": "VfL Wolfsburg"
   },
   "werder bremen": {
@@ -772,7 +772,7 @@
     "name": "Werder Bremen"
   },
   "borussia monchengladbach": {
-    "rating": 1472.4,
+    "rating": 1481.76,
     "name": "Borussia Mönchengladbach"
   },
   "1899 hoffenheim": {
@@ -780,7 +780,7 @@
     "name": "1899 Hoffenheim"
   },
   "augsburg": {
-    "rating": 1476.75,
+    "rating": 1472.79,
     "name": "FC Augsburg"
   },
   "freiburg": {
@@ -812,8 +812,8 @@
     "name": "Nottingham Forest FC"
   },
   "bournemouth": {
-    "rating": 1555.68,
-    "name": "Bournemouth"
+    "rating": 1558.96,
+    "name": "AFC Bournemouth"
   },
   "aston villa": {
     "rating": 1665.98,
@@ -824,7 +824,7 @@
     "name": "Tottenham"
   },
   "southampton": {
-    "rating": 1395.44,
+    "rating": 1410.07,
     "name": "Southampton FC"
   },
   "leeds": {
@@ -848,15 +848,15 @@
     "name": "Strasbourg"
   },
   "everton": {
-    "rating": 1558.79,
-    "name": "Everton"
+    "rating": 1554.67,
+    "name": "Everton FC"
   },
   "chelsea": {
-    "rating": 1698.55,
+    "rating": 1682.41,
     "name": "Chelsea FC"
   },
   "borussia dortmund": {
-    "rating": 1669.89,
+    "rating": 1673.84,
     "name": "Borussia Dortmund"
   },
   "bayer leverkusen": {
@@ -868,7 +868,7 @@
     "name": "Estoril"
   },
   "famalicao": {
-    "rating": 1526.54,
+    "rating": 1537.51,
     "name": "FC Famalicão"
   },
   "clermont foot": {
@@ -964,8 +964,8 @@
     "name": "Rennes"
   },
   "lorient": {
-    "rating": 1436.9,
-    "name": "Lorient"
+    "rating": 1447.28,
+    "name": "FC Lorient"
   },
   "west ham": {
     "rating": 1520.38,
@@ -976,7 +976,7 @@
     "name": "Manchester City FC"
   },
   "1 koln": {
-    "rating": 1431.09,
+    "rating": 1433.84,
     "name": "1. FC Köln"
   },
   "schalke 04": {
@@ -1052,8 +1052,8 @@
     "name": "Valladolid"
   },
   "villarreal": {
-    "rating": 1636.77,
-    "name": "Villarreal"
+    "rating": 1634.33,
+    "name": "Villarreal CF"
   },
   "lecce": {
     "rating": 1441.85,
@@ -1068,7 +1068,7 @@
     "name": "Monza"
   },
   "torino": {
-    "rating": 1506.26,
+    "rating": 1514.65,
     "name": "Torino FC"
   },
   "barcelona": {
@@ -1104,11 +1104,11 @@
     "name": "Cremonese"
   },
   "valencia": {
-    "rating": 1512.46,
-    "name": "Valencia"
+    "rating": 1503.29,
+    "name": "Valencia CF"
   },
   "girona": {
-    "rating": 1474.39,
+    "rating": 1487.4,
     "name": "Girona FC"
   },
   "salernitana": {
@@ -1136,7 +1136,7 @@
     "name": "Real Madrid CF"
   },
   "athletic club": {
-    "rating": 1632.3,
+    "rating": 1619.29,
     "name": "Athletic Club"
   },
   "mallorca": {
@@ -1152,8 +1152,8 @@
     "name": "Napoli"
   },
   "getafe": {
-    "rating": 1454.02,
-    "name": "Getafe"
+    "rating": 1446.94,
+    "name": "Getafe CF"
   },
   "atletico madrid": {
     "rating": 1679.71,
@@ -1388,7 +1388,7 @@
     "name": "SC Internacional"
   },
   "rb bragantino": {
-    "rating": 1492.15,
+    "rating": 1493.8,
     "name": "RB Bragantino"
   },
   "bahia": {
@@ -1428,7 +1428,7 @@
     "name": "Santos FC"
   },
   "hamburger sv": {
-    "rating": 1479.24,
+    "rating": 1476.49,
     "name": "Hamburger SV"
   },
   "estrela": {
@@ -1936,19 +1936,19 @@
     "name": "Mezokovesd-zsory"
   },
   "sheffield wednesday": {
-    "rating": 1445.53,
+    "rating": 1435.62,
     "name": "Sheffield Wednesday FC"
   },
   "watford": {
-    "rating": 1422.91,
-    "name": "Watford"
+    "rating": 1414.73,
+    "name": "Watford FC"
   },
   "qpr": {
     "rating": 1463.37,
     "name": "QPR"
   },
   "bristol city": {
-    "rating": 1483.36,
+    "rating": 1484.25,
     "name": "Bristol City FC"
   },
   "preston": {
@@ -1964,11 +1964,11 @@
     "name": "West Brom"
   },
   "middlesbrough": {
-    "rating": 1464.34,
+    "rating": 1463.45,
     "name": "Middlesbrough FC"
   },
   "millwall": {
-    "rating": 1515.83,
+    "rating": 1503.63,
     "name": "Millwall FC"
   },
   "norwich": {
@@ -1976,11 +1976,11 @@
     "name": "Norwich"
   },
   "hull city": {
-    "rating": 1433.95,
+    "rating": 1427.1,
     "name": "Hull City AFC"
   },
   "stoke city": {
-    "rating": 1436.82,
+    "rating": 1445.0,
     "name": "Stoke City FC"
   },
   "rotherham": {
@@ -2012,8 +2012,8 @@
     "name": "Cardiff"
   },
   "sunderland": {
-    "rating": 1511.08,
-    "name": "Sunderland"
+    "rating": 1499.2,
+    "name": "Sunderland AFC"
   },
   "ipswich": {
     "rating": 1450.21,
@@ -2024,7 +2024,7 @@
     "name": "Brann"
   },
   "volendam": {
-    "rating": 1376.41,
+    "rating": 1367.72,
     "name": "FC Volendam"
   },
   "vitesse": {
@@ -2036,8 +2036,8 @@
     "name": "Antalyaspor"
   },
   "burnley": {
-    "rating": 1624.02,
-    "name": "Burnley"
+    "rating": 1620.74,
+    "name": "Burnley FC"
   },
   "luton": {
     "rating": 1417.92,
@@ -2064,7 +2064,7 @@
     "name": "Ankaragücü"
   },
   "heerenveen": {
-    "rating": 1486.81,
+    "rating": 1495.75,
     "name": "SC Heerenveen"
   },
   "waalwijk": {
@@ -2096,7 +2096,7 @@
     "name": "Hatayspor"
   },
   "pec zwolle": {
-    "rating": 1488.39,
+    "rating": 1487.22,
     "name": "PEC Zwolle"
   },
   "sparta rotterdam": {
@@ -2116,7 +2116,7 @@
     "name": "GO Ahead Eagles"
   },
   "fortuna sittard": {
-    "rating": 1472.19,
+    "rating": 1480.88,
     "name": "Fortuna Sittard"
   },
   "le havre": {
@@ -2240,8 +2240,8 @@
     "name": "Atletico Goianiense"
   },
   "vitoria": {
-    "rating": 1510.51,
-    "name": "Vitoria"
+    "rating": 1499.54,
+    "name": "Vitória SC"
   },
   "deportivo riestra": {
     "rating": 1502.73,
@@ -2484,7 +2484,7 @@
     "name": "Kryvbas KR"
   },
   "groningen": {
-    "rating": 1497.62,
+    "rating": 1498.79,
     "name": "FC Groningen"
   },
   "derby": {
@@ -2496,7 +2496,7 @@
     "name": "Portsmouth FC"
   },
   "oxford united": {
-    "rating": 1477.47,
+    "rating": 1477.23,
     "name": "Oxford United FC"
   },
   "nacional": {
@@ -2552,7 +2552,7 @@
     "name": "Holstein Kiel"
   },
   "bayern munchen": {
-    "rating": 1700.74,
+    "rating": 1687.1,
     "name": "FC Bayern München"
   },
   "st pauli": {
@@ -2596,15 +2596,15 @@
     "name": "Rayo Vallecano de Madrid"
   },
   "real oviedo": {
-    "rating": 1491.43,
+    "rating": 1500.6,
     "name": "Real Oviedo"
   },
   "brighton hove albion": {
-    "rating": 1495.05,
+    "rating": 1506.92,
     "name": "Brighton & Hove Albion FC"
   },
   "bayer 04 leverkusen": {
-    "rating": 1518.29,
+    "rating": 1531.92,
     "name": "Bayer 04 Leverkusen"
   },
   "west ham united": {
@@ -2620,7 +2620,7 @@
     "name": "AS Monaco FC"
   },
   "ssc napoli": {
-    "rating": 1509.0,
+    "rating": 1517.32,
     "name": "SSC Napoli"
   },
   "celta de vigo": {
@@ -2628,11 +2628,11 @@
     "name": "RC Celta de Vigo"
   },
   "preston north end": {
-    "rating": 1479.44,
+    "rating": 1471.68,
     "name": "Preston North End FC"
   },
   "blackburn rovers": {
-    "rating": 1488.04,
+    "rating": 1500.24,
     "name": "Blackburn Rovers FC"
   },
   "ca osasuna": {
@@ -2652,11 +2652,11 @@
     "name": "Como 1907"
   },
   "1 heidenheim 1846": {
-    "rating": 1488.57,
+    "rating": 1493.06,
     "name": "1. FC Heidenheim 1846"
   },
   "tsg 1899 hoffenheim": {
-    "rating": 1511.43,
+    "rating": 1508.9,
     "name": "TSG 1899 Hoffenheim"
   },
   "1 fsv mainz 05": {
@@ -2664,23 +2664,23 @@
     "name": "1. FSV Mainz 05"
   },
   "charlton athletic": {
-    "rating": 1519.04,
+    "rating": 1519.28,
     "name": "Charlton Athletic FC"
   },
   "birmingham city": {
-    "rating": 1500.24,
+    "rating": 1498.53,
     "name": "Birmingham City FC"
   },
   "sheffield united": {
-    "rating": 1490.04,
+    "rating": 1491.76,
     "name": "Sheffield United FC"
   },
   "west bromwich albion": {
-    "rating": 1497.12,
+    "rating": 1503.97,
     "name": "West Bromwich Albion FC"
   },
   "coventry city": {
-    "rating": 1519.18,
+    "rating": 1504.56,
     "name": "Coventry City FC"
   },
   "derby county": {
@@ -2688,15 +2688,15 @@
     "name": "Derby County FC"
   },
   "swansea city": {
-    "rating": 1507.04,
+    "rating": 1498.27,
     "name": "Swansea City AFC"
   },
   "ipswich town": {
-    "rating": 1498.57,
+    "rating": 1508.48,
     "name": "Ipswich Town FC"
   },
   "leicester city": {
-    "rating": 1501.43,
+    "rating": 1489.71,
     "name": "Leicester City FC"
   },
   "levante": {
@@ -2704,7 +2704,7 @@
     "name": "Levante UD"
   },
   "alverca": {
-    "rating": 1496.99,
+    "rating": 1496.74,
     "name": "FC Alverca"
   },
   "cd nacional": {
@@ -2712,11 +2712,11 @@
     "name": "CD Nacional"
   },
   "angers sco": {
-    "rating": 1510.12,
+    "rating": 1498.41,
     "name": "Angers SCO"
   },
   "atalanta bc": {
-    "rating": 1498.57,
+    "rating": 1500.04,
     "name": "Atalanta BC"
   },
   "udinese calcio": {
@@ -2724,7 +2724,7 @@
     "name": "Udinese Calcio"
   },
   "club atletico de madrid": {
-    "rating": 1508.57,
+    "rating": 1515.65,
     "name": "Club Atlético de Madrid"
   },
   "real sociedad de futbol": {
@@ -2732,7 +2732,7 @@
     "name": "Real Sociedad de Fútbol"
   },
   "aj auxerre": {
-    "rating": 1498.57,
+    "rating": 1490.37,
     "name": "AJ Auxerre"
   },
   "strasbourg alsace": {
@@ -2748,7 +2748,7 @@
     "name": "Sporting Clube de Portugal"
   },
   "psv": {
-    "rating": 1508.57,
+    "rating": 1496.9,
     "name": "PSV"
   },
   "az": {
@@ -2764,7 +2764,7 @@
     "name": "SBV Excelsior"
   },
   "olympique de marseille": {
-    "rating": 1511.71,
+    "rating": 1519.91,
     "name": "Olympique de Marseille"
   },
   "gd estoril praia": {
@@ -2780,11 +2780,11 @@
     "name": "Mirassol FC"
   },
   "queens park rangers": {
-    "rating": 1491.19,
+    "rating": 1502.9,
     "name": "Queens Park Rangers FC"
   },
   "norwich city": {
-    "rating": 1508.53,
+    "rating": 1516.29,
     "name": "Norwich City FC"
   },
   "bodø glimt": {
@@ -2818,5 +2818,53 @@
   "coritiba fbc": {
     "rating": 1511.43,
     "name": "Coritiba FBC"
+  },
+  "gremio fbpa": {
+    "rating": 1498.35,
+    "name": "Grêmio FBPA"
+  },
+  "st pauli 1910": {
+    "rating": 1490.64,
+    "name": "FC St. Pauli 1910"
+  },
+  "parma calcio 1913": {
+    "rating": 1491.61,
+    "name": "Parma Calcio 1913"
+  },
+  "wrexham": {
+    "rating": 1508.77,
+    "name": "Wrexham AFC"
+  },
+  "deportivo alaves": {
+    "rating": 1502.45,
+    "name": "Deportivo Alavés"
+  },
+  "internazionale milano": {
+    "rating": 1498.53,
+    "name": "FC Internazionale Milano"
+  },
+  "racing club de lens": {
+    "rating": 1489.62,
+    "name": "Racing Club de Lens"
+  },
+  "us lecce": {
+    "rating": 1491.68,
+    "name": "US Lecce"
+  },
+  "newcastle united": {
+    "rating": 1516.14,
+    "name": "Newcastle United FC"
+  },
+  "nec": {
+    "rating": 1511.67,
+    "name": "NEC"
+  },
+  "ogc nice": {
+    "rating": 1511.71,
+    "name": "OGC Nice"
+  },
+  "telstar 1963": {
+    "rating": 1491.06,
+    "name": "Telstar 1963"
   }
 }
